@@ -1,48 +1,29 @@
-const authController = require('../controllers/auth.controllers'),
+const userController = require('../controllers/user.controllers'),
     userValidator = require('../validators/users.validators'),
-    userHelper = require('../controllers/helpers/users.helper');
+    userHelper = require('../controllers/helpers/users.helper'),
+    passport = require('passport');
 // const passport = require('passport');
 
 module.exports = (app, version) => {
 
     const moduleName = '/user/profile';
-    app.post(
-        `${version + moduleName}/signup`,
+    app.get(
+        `${version + moduleName}`,
+        // passport.isAuthenticated,
+        passport.authenticate(
+            'jwt',
+            {
+                session: false
+            }
+        ),
+        userController.userProfileResponse
+
+    );
+    app.put(
+        `${version + moduleName}/update`,
         userValidator.validateUserSignUp,
         userHelper.isPhoneNumberExists,
-        userHelper.isEmailExists,
-        authController.userSignUp
-
-    );
-    app.post(
-        `${version + moduleName}/resend/code`,
-        userValidator.validatePhoneNumber,
-        userHelper.isPhoneNumberDoseNotExists,
-        authController.resendUserPhoneNumberVerificationCode
-
-    );
-    app.post(
-        `${version + moduleName}/verify/code`,
-        userValidator.validatePhoneNumber,
-        userValidator.validatephoneVerificationCode,
-        userHelper.isPhoneNumberDoseNotExists,
-        authController.phoneNumberVerification
-
-    );
-    app.post(
-        `${version + moduleName}/password/setup`,
-        userValidator.validatePhoneNumber,
-        userValidator.validatePassword,
-        userHelper.isPhoneNumberDoseNotExists,
-        authController.passwordSetup
-
-    );
-    app.post(
-        `${version + moduleName}/login`,
-        userValidator.validateEmail,
-        userHelper.isEmailExistsDoseNotExists,
-        authController.userSignIn,
-        authController.loginSuccessResponseUser
+        userHelper.isEmailExists
 
     );
 

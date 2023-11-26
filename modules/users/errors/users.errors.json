@@ -94,5 +94,11 @@
             "EN": "credentials not found",
             "AR": ""
         }
+    },
+    "117": {
+        "msg": {
+            "EN": "Unauthorized",
+            "AR": ""
+        }
     }
 }
