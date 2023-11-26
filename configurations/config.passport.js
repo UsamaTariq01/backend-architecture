@@ -1,9 +1,13 @@
 const passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy,
     { Strategy: JwtStrategy, ExtractJwt } = require('passport-jwt'),
-    models = require('./config.sequelize').models,
-    { Op } = require('sequelize');
+    models = require('./config.sequelize').models;
 
+
+const jwtOptions = {
+    jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+    secretOrKey: global.config.jwtSetting.secret
+};
 passport.use('user', new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password'
@@ -42,13 +46,51 @@ passport.use('user', new LocalStrategy({
 
     } catch (error) {
 
-        return done(error); // Handle errors appropriately in your application
+        console.log(error);
+        return done(error);
 
     }
 
 }));
 
 
+passport.use(new JwtStrategy(jwtOptions, async (jwtPayload, done) => {
 
+    try {
+
+        const user = await models.users.findOne({
+            where: {
+                id: jwtPayload.id
+            }
+        });
+
+        if (!user || user.status !== 1) {
+
+            // Handle invalid user or user status
+            return done({ msg: 117 });
+
+        }
+
+        return done(null, user);
+
+    } catch (error) {
+
+        return done(error);
+
+    }
+
+}));
+
+passport.isAuthenticated = async (req, res, next) => {
+
+    passport.authenticate(
+        'jwt',
+        {
+            session: false
+        }
+    );
+    return next();
+
+};
 
 module.exports = passport;
