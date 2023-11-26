@@ -1,0 +1,98 @@
+{
+    "100": {
+        "msg": {
+            "EN": "Please provide valid phoneNumber",
+            "AR": ""
+        }
+    },
+    "102": {
+        "msg": {
+            "EN": "error occured while validating phoneNumber ",
+            "AR": ""
+        }
+    },
+    "103": {
+        "msg": {
+            "EN": "phoneNumber already exists, please try signing in with phoneNumber",
+            "AR": ""
+        }
+    },
+    "104": {
+        "msg": {
+            "EN": "please provide valid email",
+            "AR": ""
+        }
+    },
+    "105": {
+        "msg": {
+            "EN": "please provide name",
+            "AR": ""
+        }
+    },
+    "106": {
+        "msg": {
+            "EN": "email already exists in the system",
+            "AR": ""
+        }
+    },
+    "107": {
+        "msg": {
+            "EN": "error occured while validating",
+            "AR": ""
+        }
+    },
+    "108": {
+        "msg": {
+            "EN": "cannot send otp before 1 minute",
+            "AR": ""
+        }
+    },
+    "109": {
+        "msg": {
+            "EN": "otp not found",
+            "AR": ""
+        }
+    },
+    "110": {
+        "msg": {
+            "EN": "password not setup",
+            "AR": ""
+        }
+    },
+    "111": {
+        "msg": {
+            "EN": "user not found",
+            "AR": ""
+        }
+    },
+    "112": {
+        "msg": {
+            "EN": "credentials mis-match",
+            "AR": ""
+        }
+    },
+    "113": {
+        "msg": {
+            "EN": "phone number does not exists",
+            "AR": ""
+        }
+    },
+    "114": {
+        "msg": {
+            "EN": "please send code in string",
+            "AR": ""
+        }
+    },
+    "115": {
+        "msg": {
+            "EN": "Password must be at least 8 characters long, contain at least one number, one alphabet and one special character",
+            "AR": ""
+        }
+    },
+    "116": {
+        "msg": {
+            "EN": "credentials not found",
+            "AR": ""
+        }
+    }
+}

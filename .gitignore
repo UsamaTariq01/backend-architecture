@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.env
+.idea/
+bower_components/
+public/lib/
+# package-lock.json
+config/env/development.json
+logs/
+jsconfig.json
+.eslintrc
+.vscode/
+.git/

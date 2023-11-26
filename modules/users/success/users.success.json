@@ -1,0 +1,20 @@
+{
+    "100": {
+        "msg": {
+            "EN":"phone verification code send",
+            "AR":""
+        }
+    },
+    "102": {
+        "msg": {
+            "EN":"phoneNumber verified",
+            "AR":""
+        }
+    },
+    "103": {
+        "msg": {
+            "EN":"signup successfull",
+            "AR":""
+        }
+    }
+}
