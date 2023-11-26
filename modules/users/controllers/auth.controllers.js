@@ -68,6 +68,7 @@ const resendUserPhoneNumberVerificationCode = async (req, res, next) => {
         const { phoneNumber } = req.body;
         const phoneVerificationCode = globalUtils.generateRandomNumber();
         const currentTime = moment();
+
         const user = await models.users.findOne({
             where: {
                 phone: phoneNumber
@@ -76,6 +77,7 @@ const resendUserPhoneNumberVerificationCode = async (req, res, next) => {
         });
 
         const minutesPassed = currentTime.diff(user.phoneVerificationDateTime, 'minutes');
+
         if ( minutesPassed < 1) {
 
             return next({ msg: 108 });
@@ -83,7 +85,8 @@ const resendUserPhoneNumberVerificationCode = async (req, res, next) => {
         }
         await models.users.update({
 
-            phoneVerificationCode
+            phoneVerificationCode,
+            phoneVerificationDateTime: currentTime
         },
         {
             where: {
