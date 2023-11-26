@@ -6,9 +6,11 @@ const validateUserSignUp = async (req, res, next) => {
 
     try {
 
-        await check('phoneNumber').notEmpty().trim().isMobilePhone().withMessage(100).run(req);
-        await check('email').notEmpty().trim().isString().isEmail().withMessage(104).run(req);
-        await check('name').notEmpty().trim().isString().withMessage(105).run(req);
+        await check('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
+        await check('email').notEmpty().trim().escape().isString().isEmail()
+            .normalizeEmail({ all_lowercase: true })
+            .withMessage(104).run(req);
+        await check('name').notEmpty().trim().escape().isString().withMessage(105).run(req);
         return GlobalLib.ValidateResponse('Initial Registration', req, res, next);
 
     } catch (err) {
@@ -23,7 +25,7 @@ const validatePhoneNumber = async (req, res, next) => {
 
     try {
 
-        await check('phoneNumber').notEmpty().trim().isMobilePhone().withMessage(100).run(req);
+        await check('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -38,7 +40,9 @@ const validateEmail = async (req, res, next) => {
 
     try {
 
-        await check('email').notEmpty().trim().isString().isEmail().withMessage(104).run(req);
+        await check('email').notEmpty().trim().escape().isString().isEmail()
+            .normalizeEmail({ all_lowercase: true })
+            .withMessage(104).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -53,7 +57,7 @@ const validatephoneVerificationCode = async (req, res, next) => {
 
     try {
 
-        await check('phoneVerificationCode').notEmpty().isString().trim().withMessage(100).run(req);
+        await check('phoneVerificationCode').notEmpty().isString().trim().escape().withMessage(100).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -68,17 +72,39 @@ const validatePassword = async (req, res, next) => {
 
     try {
 
-        await check('password').notEmpty().trim()
+        await check('password').notEmpty().trim().escape()
             .isString()
+            .isStrongPassword({
+                minLength: 8,
+                minLowercase: 1,
+                minUppercase: 1,
+                minNumbers: 1,
+                minSymbols: 1
+            })
             .withMessage(115)
-            .isLength({ min: 8 })
-            .withMessage(115)
-            .matches(/\d/)
-            .withMessage(115)
-            .matches(/[a-zA-Z]/)
-            .withMessage(115)
-            .matches(/[!@#$%^&*(),.?":{}|<>]/)
+
             .withMessage(115).run(req);
+        return GlobalLib.ValidateResponse('resend', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ code: 2 });
+
+    }
+
+};
+const validateUpdateProfile = async (req, res, next) => {
+
+    try {
+
+        await check('name').optional().trim().escape().isString().withMessage(105).run(req);
+        await check('faceId').optional().trim().escape().isBoolean().withMessage(119).run(req);
+        await check('biometric').optional().trim().escape().isBoolean().withMessage(120).run(req);
+        await check('language').optional().trim().escape().isString().isIn(global.config.languagesAllowed)
+            .withMessage(121).run(req);
+        await check('gender').optional().trim().escape().isString()
+            .isIn(global.config.genders).withMessage(105).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -95,6 +121,7 @@ module.exports = {
     validatePhoneNumber,
     validatephoneVerificationCode,
     validatePassword,
-    validateEmail
+    validateEmail,
+    validateUpdateProfile
 
 };
