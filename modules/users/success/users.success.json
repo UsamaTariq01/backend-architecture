@@ -28,5 +28,11 @@
             "EN":"profile fetched successfully",
             "AR":""
         }
+    },
+    "106": {
+        "msg": {
+            "EN":"your password has been resetted",
+            "AR":""
+        }
     }
 }

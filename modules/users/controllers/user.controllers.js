@@ -77,6 +77,38 @@ const updateUserProfile = async (req, res, next) => {
     }
 
 };
+const resetUserPassword = async (req, res, next) => {
+
+    try {
+
+        const { newPassword } = req.body;
+
+        await models.users.update({
+            password: newPassword
+        },
+        {
+            where: {
+                id: req.user.id
+            }
+        });
+
+        return Response.sendResponse(
+            res,
+            {
+                msg: 106,
+                data: {},
+                lang: req.params.lang
+            }
+        );
+
+    } catch (err) {
+
+        console.log(err);
+        return next({ msg: 3067 });
+
+    }
+
+};
 
 
 
@@ -84,5 +116,6 @@ const updateUserProfile = async (req, res, next) => {
 
 module.exports = {
     userProfileResponse,
-    updateUserProfile
+    updateUserProfile,
+    resetUserPassword
 };

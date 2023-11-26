@@ -81,9 +81,32 @@ const validatePassword = async (req, res, next) => {
                 minNumbers: 1,
                 minSymbols: 1
             })
-            .withMessage(115)
-
             .withMessage(115).run(req);
+        return GlobalLib.ValidateResponse('resend', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ code: 2 });
+
+    }
+
+};
+const validateNewOldPassword = async (req, res, next) => {
+
+    try {
+
+        await check('newPassword').notEmpty().trim().escape()
+            .isString()
+            .isStrongPassword({
+                minLength: 8,
+                minLowercase: 1,
+                minUppercase: 1,
+                minNumbers: 1,
+                minSymbols: 1
+            })
+            .withMessage(115).run(req);
+        await check('oldPassword').notEmpty().isString().trim().escape().withMessage(123).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -123,6 +146,7 @@ module.exports = {
     validatephoneVerificationCode,
     validatePassword,
     validateEmail,
-    validateUpdateProfile
+    validateUpdateProfile,
+    validateNewOldPassword
 
 };

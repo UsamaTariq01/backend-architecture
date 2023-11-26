@@ -238,7 +238,7 @@ const passwordSetup = async (req, res, next) => {
 
 };
 
-const userSignIn = async (req, res, next) => {
+const userSignIn = (req, res, next) => {
 
     passport.authenticate('user', (err, user, info) => {
 

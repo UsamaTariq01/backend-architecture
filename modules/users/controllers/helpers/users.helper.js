@@ -106,9 +106,27 @@ const isEmailExistsDoseNotExists = async (req, res, next) => {
 
 };
 
+const setupUserEmail = async (req, res, next) => {
+
+    try {
+
+        req.body.email = req.user.email;
+        req.body.password = req.body.oldPassword;
+        return next();
+
+    } catch (err) {
+
+        console.log(err);
+        return next({ msg: 3067 });
+
+    }
+
+};
+
 module.exports = {
     isPhoneNumberExists,
     isEmailExists,
     isPhoneNumberDoseNotExists,
-    isEmailExistsDoseNotExists
+    isEmailExistsDoseNotExists,
+    setupUserEmail
 };

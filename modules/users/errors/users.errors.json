@@ -130,5 +130,11 @@
             "EN": "please provide correct path for profile image",
             "AR": ""
         }
+    },
+    "123": {
+        "msg": {
+            "EN": "please provide old passowrd",
+            "AR": ""
+        }
     }
 }
