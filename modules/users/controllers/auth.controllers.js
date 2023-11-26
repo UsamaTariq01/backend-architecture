@@ -261,6 +261,16 @@ const userSignIn = async (req, res, next) => {
             email: user.email
         });
 
+        models.users.update({
+
+            userSessionToken: req.token
+        },
+        {
+            where: {
+                id: user.id
+            }
+        });
+
         res.setHeader('Access-Control-Expose-Headers', 'Authorization');
         res.setHeader('Authorization', req.token);
 
