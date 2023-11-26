@@ -8,20 +8,15 @@ module.exports = (app, version) => {
     const moduleName = '/user/profile';
     app.get(
         `${version + moduleName}`,
-        passport.authenticate(
-            'jwt',
-            {
-                session: false
-            }
-        ),
+        passport.authenticate('jwt', { session: false }),
         userController.userProfileResponse
 
     );
     app.put(
         `${version + moduleName}/update`,
-        userValidator.validateUserSignUp,
-        userHelper.isPhoneNumberExists,
-        userHelper.isEmailExists
+        passport.authenticate('jwt', { session: false }),
+        userValidator.validateUpdateProfile,
+        userController.updateUserProfile
 
     );
 

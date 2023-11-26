@@ -16,7 +16,51 @@ const userProfileResponse = (req, res, next) => {
         return Response.sendResponse(
             res,
             {
-                msg: 103,
+                msg: 105,
+                data: {
+                    user: req.user
+
+                },
+                lang: req.params.lang
+            }
+        );
+
+    } catch (err) {
+
+        console.log(err);
+        return next({ msg: 3067 });
+
+    }
+
+};
+const updateUserProfile = async (req, res, next) => {
+
+    try {
+
+        const {
+            name, faceId, biometric, language, profileImage, gender
+        } = req.body;
+
+        await models.users.update({
+            name,
+            faceId,
+            biometric,
+            language,
+            profileImage,
+            gender
+        },
+        {
+            where : {
+                id: req.user.id
+            }
+        }
+
+        );
+
+        return Response.sendResponse(
+            res,
+            {
+                msg: 104,
                 data: {
                     user: req.user
 
@@ -39,5 +83,6 @@ const userProfileResponse = (req, res, next) => {
 
 
 module.exports = {
-    userProfileResponse
+    userProfileResponse,
+    updateUserProfile
 };

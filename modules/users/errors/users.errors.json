@@ -124,5 +124,11 @@
             "EN": "please select from allowed languages",
             "AR": ""
         }
+    },
+    "122": {
+        "msg": {
+            "EN": "please provide correct path for profile image",
+            "AR": ""
+        }
     }
 }

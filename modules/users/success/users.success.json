@@ -16,5 +16,17 @@
             "EN":"signup successfull",
             "AR":""
         }
+    },
+    "104": {
+        "msg": {
+            "EN":"profile updated",
+            "AR":""
+        }
+    },
+    "105": {
+        "msg": {
+            "EN":"profile fetched successfully",
+            "AR":""
+        }
     }
 }

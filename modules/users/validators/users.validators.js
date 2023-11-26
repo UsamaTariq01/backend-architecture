@@ -103,6 +103,7 @@ const validateUpdateProfile = async (req, res, next) => {
         await check('biometric').optional().trim().escape().isBoolean().withMessage(120).run(req);
         await check('language').optional().trim().escape().isString().isIn(global.config.languagesAllowed)
             .withMessage(121).run(req);
+        await check('profileImage').optional().trim().escape().isString().isURL().withMessage(122).run(req);
         await check('gender').optional().trim().escape().isString()
             .isIn(global.config.genders).withMessage(105).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
