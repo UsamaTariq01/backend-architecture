@@ -15,6 +15,7 @@
     "start:prod": "cross-env NODE_ENV=production NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon app.js"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.456.0",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
