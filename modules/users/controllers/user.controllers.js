@@ -7,12 +7,11 @@ const Response = require('../../../configurations/config.response'),
     globalUtils = require('../../utils');
 
 
-const userProfileResponse = async (req, res, next) => {
+const userProfileResponse = (req, res, next) => {
 
     try {
 
         console.log(req.user);
-
 
         return Response.sendResponse(
             res,

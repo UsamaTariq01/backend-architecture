@@ -100,5 +100,29 @@
             "EN": "Unauthorized",
             "AR": ""
         }
+    },
+    "118": {
+        "msg": {
+            "EN": "possible gender values are [ male, female, other ]",
+            "AR": ""
+        }
+    },
+    "119": {
+        "msg": {
+            "EN": "face Id could be true or false",
+            "AR": ""
+        }
+    },
+    "120": {
+        "msg": {
+            "EN": "biometric could be true or false",
+            "AR": ""
+        }
+    },
+    "121": {
+        "msg": {
+            "EN": "please select from allowed languages",
+            "AR": ""
+        }
     }
 }

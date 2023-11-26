@@ -44,13 +44,6 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: true,
             field: 'password'
-            // set (value) {
-
-            //     const hashedPassword = bcrypt.hashSync(value,
-            //         global.config.bcryptSetting.saltRounds);
-            //     this.setDataValue('password', hashedPassword);
-
-            // }
         },
         forgotPasswordToken: {
             type: DataTypes.STRING(150),

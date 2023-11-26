@@ -4,28 +4,20 @@ const express = require('express'),
     http = require('http'),
     morganMiddleware = require('./logger.morgan'),
     logger = require('./logger.winston'),
-    
-    // var passport = require('passport');
     { initialConfiguration } = require('./config.glob');
 
-// Passport and Session
-// const passport = require('passport');
-// const cookieSession = require('cookie-session');
-// const bodyParser = require('body-parser');
-// const session = require('express-session');
 
 
 
 const app = express();
-app.use(express.urlencoded({ extended: true }));
+
+app.use(express.json({ limit: '50mb' }));
+
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(helmet());
-// app.use(express.json());
 
-// app.setup(serverHttps);
-// Add the morgan middleware
-app.use(morganMiddleware);
+
 const options = {
-
     'origin':               '*',
     'methods':              'GET,PUT,POST,DELETE',
     'preflightContinue':    false,
@@ -34,38 +26,13 @@ const options = {
 
 };
 
-app.use(express.json({ limit: '50mb' }));
-
-app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 app.use(cors(options));
-// app.use(passport);
 
-// Cookie Configuration
-// app.use(cookieSession({
-//     maxAge: 24 * 60 * 60 * 1000,
-//     keys:   [ global.cookieKey ]
-// }));
 
-// app.use(session({
-//     secret: "tHiSiSasEcRetStr",
-//     resave: true,
-//     saveUninitialized: true }));
+// Add the morgan middleware
+app.use(morganMiddleware);
 
-// initialize passport
-// app.use(session({
-//     secret:            'tHiSiSasEcRetStr',
-//     resave:            true,
-//     saveUninitialized: true
-// }));
-
-// app.use(passport.initialize());
-// app.use(passport.session());
-
-// initializingPassport(passport);
-// app.use(passport.initialize());
-// app.use(passport.session());
-// Add the line below, which you're missing:
 initialConfiguration();
 require('./config.sequelize');
 global.errors = require('./config.errors');

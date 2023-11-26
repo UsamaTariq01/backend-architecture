@@ -3,5 +3,10 @@
         "en": "EN",
         "ar": "AR",
         "fr": "FR"
-    }
+    },
+    "genders": [
+        "male",
+        "female",
+        "other"
+    ]
 }

@@ -34,71 +34,7 @@ const sequelize = new Sequelize(
 
     });
 
-//     console.log('insode sequelize')
-// glob('modules/**/*.model.js', (err, files) => {
-//     console.log('insode glob sync')
-//     if (err) {
-//         console.log(err)
-//         Logger.error(err);
-//         throw new Error({ error: 'error occured while loading models' });
 
-//     }
-
-//     Logger.info('models are loading ...');
-
-//     let model;
-
-//     files.forEach(file => {
-
-//         Logger.info(`Loading model ${file}`);
-//         model = require(path.join(root, file))(sequelize, Sequelize.DataTypes);
-//         models[model.name] = model;
-
-//     });
-
-//     sequelize
-//         .sync({ force: global.config.db.forceSync })
-//         .then(() => {
-
-//             sequelize
-//                 .authenticate()
-//                 .then(() => {
-
-
-//                     Logger.info(
-//                         `DataBase Connection established successfully: Host ${global.config.db.host}
-//                         database ${global.config.db.name}`
-//                     );
-
-//                 }).catch((err) => {
-
-//                     Logger.error(`Unable to connect to the DB: ${err}`);
-//                     throw new Error({ error: 'error occured while loading models' });
-
-//                 });
-
-//         }).catch(err => {
-
-//             Logger.error(`Unable to connect to the database: ${err}`);
-
-//         });
-
-//     Object.keys(models).forEach(model => {
-
-//         if (Object.hasOwn(models[model].options, 'associate')) {
-
-//             models[model].options.associate(models);
-
-//         }
-//         if ('associate' in models[model]) {
-
-//             models[model].associate(models);
-
-//         }
-
-//     });
-
-// });
 
 (async () => {
 
@@ -169,7 +105,7 @@ const sequelize = new Sequelize(
     }
 
 })();
-console.log(models);
+
 module.exports = {
     sequelize,
     Sequelize,
