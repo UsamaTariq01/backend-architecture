@@ -2,139 +2,162 @@
     "100": {
         "msg": {
             "EN": "Please provide valid phoneNumber",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "102": {
         "msg": {
             "EN": "error occured while validating phoneNumber ",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "103": {
         "msg": {
             "EN": "phoneNumber already exists, please try signing in with phoneNumber",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "104": {
         "msg": {
             "EN": "please provide valid email",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "105": {
         "msg": {
             "EN": "please provide name",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "106": {
         "msg": {
             "EN": "email already exists in the system",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "107": {
         "msg": {
             "EN": "error occured while validating",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "108": {
         "msg": {
             "EN": "cannot send otp before 1 minute",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "109": {
         "msg": {
             "EN": "otp not found",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "110": {
         "msg": {
             "EN": "password not setup",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "111": {
         "msg": {
             "EN": "user not found",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "112": {
         "msg": {
             "EN": "credentials mis-match",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "113": {
         "msg": {
             "EN": "phone number does not exists",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "114": {
         "msg": {
             "EN": "please send code in string",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "115": {
         "msg": {
             "EN": "Password must be at least 8 characters long, contain at least one number, one alphabet and one special character",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "116": {
         "msg": {
             "EN": "credentials not found",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "117": {
         "msg": {
             "EN": "Unauthorized",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "118": {
         "msg": {
             "EN": "possible gender values are [ male, female, other ]",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "119": {
         "msg": {
             "EN": "face Id could be true or false",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "120": {
         "msg": {
             "EN": "biometric could be true or false",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "121": {
         "msg": {
             "EN": "please select from allowed languages",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "122": {
         "msg": {
             "EN": "please provide correct path for profile image",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     },
     "123": {
         "msg": {
             "EN": "please provide old passowrd",
-            "AR": ""
+            "AR": "",
+            "FR":""
         }
     }
 }

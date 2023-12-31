@@ -2,37 +2,43 @@
     "100": {
         "msg": {
             "EN":"phone verification code send",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     },
     "102": {
         "msg": {
             "EN":"phoneNumber verified",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     },
     "103": {
         "msg": {
             "EN":"signup successfull",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     },
     "104": {
         "msg": {
             "EN":"profile updated",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     },
     "105": {
         "msg": {
             "EN":"profile fetched successfully",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     },
     "106": {
         "msg": {
             "EN":"your password has been resetted",
-            "AR":""
+            "AR":"",
+            "FR":""
         }
     }
 }
