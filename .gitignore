@@ -8,6 +8,6 @@ public/lib/
 config/env/development.json
 logs/
 jsconfig.json
-.eslintrc
-.vscode/
+# .eslintrc
+# .vscode/
 .git/
