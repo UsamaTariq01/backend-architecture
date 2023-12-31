@@ -16,9 +16,9 @@ const sequelize = new Sequelize(
         dialect: 'mysql',
         define:  {
 
-            charset:        'utf8',
+            charset:        'utf8mb4',
             dialectOptions: {
-                collate: 'utf8_general_ci'
+                collate: 'utf8mb4_unicode_ci'
             },
             timestamps:      true,
             freezeTableName: true,
@@ -62,7 +62,8 @@ const sequelize = new Sequelize(
                     .authenticate()
                     .then(() => {
 
-
+                        const dataBaseSeeding = require('./dbSeed');
+                        dataBaseSeeding(models, sequelize);
                         Logger.info(
                             `DataBase Connection established successfully: Host ${global.config.db.host} 
                         database ${global.config.db.name}`
