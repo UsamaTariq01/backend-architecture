@@ -14,6 +14,7 @@ module.exports = (app) => {
 
     // Handling 500
     app.use((error, req, res, next) => {
+
         console.log('error.msg', error.msg);
         let errorMessage,
             // langCode = req.get('aspire-lang');
@@ -23,15 +24,15 @@ module.exports = (app) => {
 
         if (error.msg && typeof error.msg === 'number') {
 
-            errorMessage = `${error.msg} ${global.errors[error.msg].msg[langCode]}`;
+            errorMessage = `${global.errors[error.msg].msg[langCode]}`;
 
         } else if (error.message && typeof error.message === 'number') {
 
-            errorMessage = `${error.message} ${global.errors[error.message].msg[[ langCode ]]}`;
+            errorMessage = `${global.errors[error.message].msg[[ langCode ]]}`;
 
         } else if (error.code && typeof error.code === 'number') {
 
-            errorMessage = `${error.message} ${global.errors[error.message].msg[[ langCode ]]}`;
+            errorMessage = `${global.errors[error.message].msg[[ langCode ]]}`;
 
         } else {
 
