@@ -11,3 +11,5 @@ jsconfig.json
 # .eslintrc
 # .vscode/
 .git/
+**/DS_Store
+.DS_Store
