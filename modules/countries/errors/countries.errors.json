@@ -1,0 +1,163 @@
+{
+    "1000": {
+        "msg": {
+            "EN": "Please provide valid phoneNumber",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1002": {
+        "msg": {
+            "EN": "error occured while validating phoneNumber ",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1003": {
+        "msg": {
+            "EN": "phoneNumber already exists, please try signing in with phoneNumber",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1004": {
+        "msg": {
+            "EN": "please provide valid email",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1005": {
+        "msg": {
+            "EN": "please provide name",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1006": {
+        "msg": {
+            "EN": "email already exists in the system",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1007": {
+        "msg": {
+            "EN": "error occured while validating",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1008": {
+        "msg": {
+            "EN": "cannot send otp before 1 minute",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1009": {
+        "msg": {
+            "EN": "otp not found",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1010": {
+        "msg": {
+            "EN": "password not setup",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1011": {
+        "msg": {
+            "EN": "user not found",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1012": {
+        "msg": {
+            "EN": "credentials mis-match",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1013": {
+        "msg": {
+            "EN": "phone number does not exists",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1014": {
+        "msg": {
+            "EN": "please send code in string",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1015": {
+        "msg": {
+            "EN": "Password must be at least 8 characters long, contain at least one number, one alphabet and one special character",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1016": {
+        "msg": {
+            "EN": "credentials not found",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1017": {
+        "msg": {
+            "EN": "Unauthorized",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1018": {
+        "msg": {
+            "EN": "possible gender values are [ male, female, other ]",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1019": {
+        "msg": {
+            "EN": "face Id could be true or false",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1020": {
+        "msg": {
+            "EN": "biometric could be true or false",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1021": {
+        "msg": {
+            "EN": "please select from allowed languages",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1022": {
+        "msg": {
+            "EN": "please provide correct path for profile image",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "1023": {
+        "msg": {
+            "EN": "please provide old passowrd",
+            "AR": "",
+            "FR":""
+        }
+    }
+}

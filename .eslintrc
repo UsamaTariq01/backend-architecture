@@ -154,10 +154,10 @@
             "always"
         ],
         "yoda": "error",
-        "array-bracket-spacing": [
-            "error",
-            "always"
-        ],
+        // "array-bracket-spacing": [
+        //     "error",
+        //     "always"
+        // ],
         "arrow-spacing": "error",
         "block-spacing": "error",
         "brace-style": [

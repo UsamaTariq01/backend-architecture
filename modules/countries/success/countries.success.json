@@ -1,0 +1,44 @@
+{
+    "1000": {
+        "msg": {
+            "EN":"countries fetched successfully",
+            "AR":"",
+            "FR":""
+        }
+    },
+    "1002": {
+        "msg": {
+            "EN":"phoneNumber verified",
+            "AR":"",
+            "FR":""
+        }
+    },
+    "1003": {
+        "msg": {
+            "EN":"signup successfull",
+            "AR":"",
+            "FR":""
+        }
+    },
+    "1004": {
+        "msg": {
+            "EN":"profile updated",
+            "AR":"",
+            "FR":""
+        }
+    },
+    "1005": {
+        "msg": {
+            "EN":"profile fetched successfully",
+            "AR":"",
+            "FR":""
+        }
+    },
+    "1006": {
+        "msg": {
+            "EN":"your password has been resetted",
+            "AR":"",
+            "FR":""
+        }
+    }
+}
