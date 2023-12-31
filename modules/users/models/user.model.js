@@ -136,6 +136,18 @@ module.exports = (sequelize, DataTypes) => {
         return isPasswordCorrect;
 
     };
+    User.associate = function (models) {
+
+        User.belongsTo(models.users, {
+            foreignKey: {
+                name: 'countryId',
+                field: 'countryId',
+                type: DataTypes.INTEGER
+            },
+            allowNull: false
+        });
+
+    };
 
     return User;
 
