@@ -10,7 +10,7 @@
         "officialLanguageCode": "ca",
         "officialLanguageNameEn": "Catalan, Valencian",
         "officialLanguageNameLocal": "Català, Valencià",
-        "countryCallingCode": "376",
+        "countryCallingCode": "+376",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇦🇩"
@@ -26,7 +26,7 @@
         "officialLanguageCode": "fa",
         "officialLanguageNameEn": "Persian",
         "officialLanguageNameLocal": "فارسی",
-        "countryCallingCode": "93",
+        "countryCallingCode": "+93",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇦🇫"
@@ -42,7 +42,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1268",
+        "countryCallingCode": "+1268",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇦🇬"
@@ -58,7 +58,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1264",
+        "countryCallingCode": "+1264",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇦🇮"
@@ -74,7 +74,7 @@
         "officialLanguageCode": "sq",
         "officialLanguageNameEn": "Albanian",
         "officialLanguageNameLocal": "Shqip",
-        "countryCallingCode": "355",
+        "countryCallingCode": "+355",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇦🇱"
@@ -90,7 +90,7 @@
         "officialLanguageCode": "hy",
         "officialLanguageNameEn": "Armenian",
         "officialLanguageNameLocal": "Հայերեն",
-        "countryCallingCode": "374",
+        "countryCallingCode": "+374",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇦🇲"
@@ -106,7 +106,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "244",
+        "countryCallingCode": "+244",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇦🇴"
@@ -122,7 +122,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "672",
+        "countryCallingCode": "+672",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇦🇶"
@@ -138,7 +138,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "54",
+        "countryCallingCode": "+54",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇦🇷"
@@ -154,7 +154,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1684",
+        "countryCallingCode": "+1684",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇦🇸"
@@ -170,7 +170,7 @@
         "officialLanguageCode": "de",
         "officialLanguageNameEn": "German",
         "officialLanguageNameLocal": "Deutsch",
-        "countryCallingCode": "43",
+        "countryCallingCode": "+43",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇦🇹"
@@ -186,7 +186,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "61",
+        "countryCallingCode": "+61",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇦🇺"
@@ -202,7 +202,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "297",
+        "countryCallingCode": "+297",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇦🇼"
@@ -218,7 +218,7 @@
         "officialLanguageCode": "sv",
         "officialLanguageNameEn": "Swedish",
         "officialLanguageNameLocal": "Svenska",
-        "countryCallingCode": "358",
+        "countryCallingCode": "+358",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇦🇽"
@@ -234,7 +234,7 @@
         "officialLanguageCode": "az",
         "officialLanguageNameEn": "Azerbaijani",
         "officialLanguageNameLocal": "azərbaycan dili",
-        "countryCallingCode": "994",
+        "countryCallingCode": "+994",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇦🇿"
@@ -250,7 +250,7 @@
         "officialLanguageCode": "bs",
         "officialLanguageNameEn": "Bosnian",
         "officialLanguageNameLocal": "bosanski jezik",
-        "countryCallingCode": "387",
+        "countryCallingCode": "+387",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇧🇦"
@@ -266,7 +266,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1246",
+        "countryCallingCode": "+1246",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇧"
@@ -282,7 +282,7 @@
         "officialLanguageCode": "bn",
         "officialLanguageNameEn": "Bengali",
         "officialLanguageNameLocal": "বাংলা",
-        "countryCallingCode": "880",
+        "countryCallingCode": "+880",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇧🇩"
@@ -298,7 +298,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "32",
+        "countryCallingCode": "+32",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇧🇪"
@@ -314,7 +314,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "226",
+        "countryCallingCode": "+226",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇧🇫"
@@ -330,7 +330,7 @@
         "officialLanguageCode": "bg",
         "officialLanguageNameEn": "Bulgarian",
         "officialLanguageNameLocal": "български език",
-        "countryCallingCode": "359",
+        "countryCallingCode": "+359",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇧🇬"
@@ -346,7 +346,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "973",
+        "countryCallingCode": "+973",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇧🇭"
@@ -362,7 +362,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "257",
+        "countryCallingCode": "+257",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇧🇮"
@@ -378,7 +378,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "229",
+        "countryCallingCode": "+229",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇧🇯"
@@ -394,7 +394,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "590",
+        "countryCallingCode": "+590",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇱"
@@ -410,7 +410,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1441",
+        "countryCallingCode": "+1441",
         "areaCodes": [],
         "region": "North America",
         "flag": "🇧🇲"
@@ -426,7 +426,7 @@
         "officialLanguageCode": "ms",
         "officialLanguageNameEn": "Malay",
         "officialLanguageNameLocal": "Bahasa Melayu, بهاس ملايو‎",
-        "countryCallingCode": "673",
+        "countryCallingCode": "+673",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇧🇳"
@@ -442,7 +442,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "591",
+        "countryCallingCode": "+591",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇴"
@@ -458,7 +458,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "5997",
+        "countryCallingCode": "+5997",
         "areaCodes": [],
         "region": "Unknown",
         "flag": "🇧🇶"
@@ -474,7 +474,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "55",
+        "countryCallingCode": "+55",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇷"
@@ -490,7 +490,7 @@
         "officialLanguageCode": "dz",
         "officialLanguageNameEn": "Dzongkha",
         "officialLanguageNameLocal": "རྫོང་ཁ",
-        "countryCallingCode": "975",
+        "countryCallingCode": "+975",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇧🇹"
@@ -506,7 +506,7 @@
         "officialLanguageCode": "no",
         "officialLanguageNameEn": "Norwegian",
         "officialLanguageNameLocal": "Norsk",
-        "countryCallingCode": "47",
+        "countryCallingCode": "+47",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇻"
@@ -522,7 +522,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "267",
+        "countryCallingCode": "+267",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇧🇼"
@@ -538,7 +538,7 @@
         "officialLanguageCode": "be",
         "officialLanguageNameEn": "Belarusian",
         "officialLanguageNameLocal": "беларуская мова",
-        "countryCallingCode": "375",
+        "countryCallingCode": "+375",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇧🇾"
@@ -554,7 +554,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "501",
+        "countryCallingCode": "+501",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇧🇿"
@@ -570,7 +570,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [
             "403",
             "587",
@@ -628,7 +628,7 @@
         "officialLanguageCode": "de",
         "officialLanguageNameEn": "German",
         "officialLanguageNameLocal": "Deutsch",
-        "countryCallingCode": "41",
+        "countryCallingCode": "+41",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇨🇭"
@@ -644,7 +644,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "225",
+        "countryCallingCode": "+225",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇮"
@@ -660,7 +660,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "56",
+        "countryCallingCode": "+56",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇨🇱"
@@ -676,7 +676,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "237",
+        "countryCallingCode": "+237",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇲"
@@ -692,7 +692,7 @@
         "officialLanguageCode": "zh-hans",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "86",
+        "countryCallingCode": "+86",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇨🇳"
@@ -708,7 +708,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "57",
+        "countryCallingCode": "+57",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇨🇴"
@@ -724,7 +724,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "506",
+        "countryCallingCode": "+506",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇨🇷"
@@ -740,7 +740,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "53",
+        "countryCallingCode": "+53",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇨🇺"
@@ -756,7 +756,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "238",
+        "countryCallingCode": "+238",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇻"
@@ -772,7 +772,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "599",
+        "countryCallingCode": "+599",
         "areaCodes": [],
         "region": "Unknown",
         "flag": "🇨🇼"
@@ -788,7 +788,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "61",
+        "countryCallingCode": "+61",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇨🇽"
@@ -804,7 +804,7 @@
         "officialLanguageCode": "el",
         "officialLanguageNameEn": "Greek, Modern (1453-)",
         "officialLanguageNameLocal": "ελληνικά",
-        "countryCallingCode": "357",
+        "countryCallingCode": "+357",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇨🇾"
@@ -820,7 +820,7 @@
         "officialLanguageCode": "de",
         "officialLanguageNameEn": "German",
         "officialLanguageNameLocal": "Deutsch",
-        "countryCallingCode": "49",
+        "countryCallingCode": "+49",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇩🇪"
@@ -836,7 +836,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "253",
+        "countryCallingCode": "+253",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇩🇯"
@@ -852,7 +852,7 @@
         "officialLanguageCode": "da",
         "officialLanguageNameEn": "Danish",
         "officialLanguageNameLocal": "dansk",
-        "countryCallingCode": "45",
+        "countryCallingCode": "+45",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇩🇰"
@@ -868,7 +868,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "767",
+        "countryCallingCode": "+767",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇩🇲"
@@ -884,7 +884,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "213",
+        "countryCallingCode": "+213",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇩🇿"
@@ -900,7 +900,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "593",
+        "countryCallingCode": "+593",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇪🇨"
@@ -916,7 +916,7 @@
         "officialLanguageCode": "et",
         "officialLanguageNameEn": "Estonian",
         "officialLanguageNameLocal": "eesti, eesti keel",
-        "countryCallingCode": "372",
+        "countryCallingCode": "+372",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇪🇪"
@@ -932,7 +932,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "20",
+        "countryCallingCode": "+20",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇪🇬"
@@ -948,7 +948,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "212",
+        "countryCallingCode": "+212",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇪🇭"
@@ -964,7 +964,7 @@
         "officialLanguageCode": "ti",
         "officialLanguageNameEn": "Tigrinya",
         "officialLanguageNameLocal": "ትግርኛ",
-        "countryCallingCode": "291",
+        "countryCallingCode": "+291",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇪🇷"
@@ -980,7 +980,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "34",
+        "countryCallingCode": "+34",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇪🇸"
@@ -996,7 +996,7 @@
         "officialLanguageCode": "am",
         "officialLanguageNameEn": "Amharic",
         "officialLanguageNameLocal": "አማርኛ",
-        "countryCallingCode": "251",
+        "countryCallingCode": "+251",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇪🇹"
@@ -1012,7 +1012,7 @@
         "officialLanguageCode": "fi",
         "officialLanguageNameEn": "Finnish",
         "officialLanguageNameLocal": "suomi, suomen kieli",
-        "countryCallingCode": "358",
+        "countryCallingCode": "+358",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇫🇮"
@@ -1028,7 +1028,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "679",
+        "countryCallingCode": "+679",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇫🇯"
@@ -1044,7 +1044,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "691",
+        "countryCallingCode": "+691",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇫🇲"
@@ -1060,7 +1060,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "33",
+        "countryCallingCode": "+33",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇫🇷"
@@ -1076,7 +1076,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "241",
+        "countryCallingCode": "+241",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇦"
@@ -1092,7 +1092,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1473",
+        "countryCallingCode": "+1473",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇩"
@@ -1108,7 +1108,7 @@
         "officialLanguageCode": "ka",
         "officialLanguageNameEn": "Georgian",
         "officialLanguageNameLocal": "ქართული",
-        "countryCallingCode": "995",
+        "countryCallingCode": "+995",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇪"
@@ -1124,7 +1124,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "594",
+        "countryCallingCode": "+594",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇫"
@@ -1140,7 +1140,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "44",
+        "countryCallingCode": "+44",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇬"
@@ -1156,7 +1156,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "233",
+        "countryCallingCode": "+233",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇭"
@@ -1172,7 +1172,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "350",
+        "countryCallingCode": "+350",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇮"
@@ -1188,7 +1188,7 @@
         "officialLanguageCode": "kl",
         "officialLanguageNameEn": "Kalaallisut, Greenlandic",
         "officialLanguageNameLocal": "kalaallisut, kalaallit oqaasii",
-        "countryCallingCode": "299",
+        "countryCallingCode": "+299",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇱"
@@ -1204,7 +1204,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "224",
+        "countryCallingCode": "+224",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇳"
@@ -1220,7 +1220,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "590",
+        "countryCallingCode": "+590",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇵"
@@ -1236,7 +1236,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "240",
+        "countryCallingCode": "+240",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇶"
@@ -1252,7 +1252,7 @@
         "officialLanguageCode": "el",
         "officialLanguageNameEn": "Greek, Modern (1453-)",
         "officialLanguageNameLocal": "ελληνικά",
-        "countryCallingCode": "30",
+        "countryCallingCode": "+30",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇷"
@@ -1268,7 +1268,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "500",
+        "countryCallingCode": "+500",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇸"
@@ -1284,7 +1284,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "502",
+        "countryCallingCode": "+502",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇹"
@@ -1300,7 +1300,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇬🇺"
@@ -1316,7 +1316,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "245",
+        "countryCallingCode": "+245",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇼"
@@ -1332,7 +1332,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "592",
+        "countryCallingCode": "+592",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇬🇾"
@@ -1348,7 +1348,7 @@
         "officialLanguageCode": "zh-hant",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "852",
+        "countryCallingCode": "+852",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇭🇰"
@@ -1364,7 +1364,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "504",
+        "countryCallingCode": "+504",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇭🇳"
@@ -1380,7 +1380,7 @@
         "officialLanguageCode": "hr",
         "officialLanguageNameEn": "Croatian",
         "officialLanguageNameLocal": "hrvatski jezik",
-        "countryCallingCode": "385",
+        "countryCallingCode": "+385",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇭🇷"
@@ -1396,7 +1396,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "509",
+        "countryCallingCode": "+509",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇭🇹"
@@ -1412,7 +1412,7 @@
         "officialLanguageCode": "hu",
         "officialLanguageNameEn": "Hungarian",
         "officialLanguageNameLocal": "magyar",
-        "countryCallingCode": "36",
+        "countryCallingCode": "+36",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇭🇺"
@@ -1428,7 +1428,7 @@
         "officialLanguageCode": "id",
         "officialLanguageNameEn": "Indonesian",
         "officialLanguageNameLocal": "Bahasa Indonesia",
-        "countryCallingCode": "62",
+        "countryCallingCode": "+62",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇮🇩"
@@ -1444,7 +1444,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "353",
+        "countryCallingCode": "+353",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇮🇪"
@@ -1460,7 +1460,7 @@
         "officialLanguageCode": "he",
         "officialLanguageNameEn": "Hebrew",
         "officialLanguageNameLocal": "עברית",
-        "countryCallingCode": "972",
+        "countryCallingCode": "+972",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇮🇱"
@@ -1476,7 +1476,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "44",
+        "countryCallingCode": "+44",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇮🇲"
@@ -1492,7 +1492,7 @@
         "officialLanguageCode": "hi",
         "officialLanguageNameEn": "Hindi",
         "officialLanguageNameLocal": "हिन्दी, हिंदी",
-        "countryCallingCode": "91",
+        "countryCallingCode": "+91",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇮🇳"
@@ -1508,7 +1508,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "246",
+        "countryCallingCode": "+246",
         "areaCodes": [],
         "region": "Indian Ocean",
         "flag": "🇮🇴"
@@ -1524,7 +1524,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "964",
+        "countryCallingCode": "+964",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇮🇶"
@@ -1540,7 +1540,7 @@
         "officialLanguageCode": "fa",
         "officialLanguageNameEn": "Persian",
         "officialLanguageNameLocal": "فارسی",
-        "countryCallingCode": "98",
+        "countryCallingCode": "+98",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇮🇷"
@@ -1556,7 +1556,7 @@
         "officialLanguageCode": "is",
         "officialLanguageNameEn": "Icelandic",
         "officialLanguageNameLocal": "Íslenska",
-        "countryCallingCode": "354",
+        "countryCallingCode": "+354",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇮🇸"
@@ -1572,7 +1572,7 @@
         "officialLanguageCode": "it",
         "officialLanguageNameEn": "Italian",
         "officialLanguageNameLocal": "Italiano",
-        "countryCallingCode": "39",
+        "countryCallingCode": "+39",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇮🇹"
@@ -1588,7 +1588,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "44",
+        "countryCallingCode": "+44",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇯🇪"
@@ -1604,7 +1604,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "876",
+        "countryCallingCode": "+876",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇯🇲"
@@ -1620,7 +1620,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "962",
+        "countryCallingCode": "+962",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇯🇴"
@@ -1636,7 +1636,7 @@
         "officialLanguageCode": "ja",
         "officialLanguageNameEn": "Japanese",
         "officialLanguageNameLocal": "日本語 (にほんご)",
-        "countryCallingCode": "81",
+        "countryCallingCode": "+81",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇯🇵"
@@ -1652,7 +1652,7 @@
         "officialLanguageCode": "sw",
         "officialLanguageNameEn": "Swahili",
         "officialLanguageNameLocal": "Kiswahili",
-        "countryCallingCode": "254",
+        "countryCallingCode": "+254",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇰🇪"
@@ -1668,7 +1668,7 @@
         "officialLanguageCode": "ky",
         "officialLanguageNameEn": "Kirghiz, Kyrgyz",
         "officialLanguageNameLocal": "Кыргызча, Кыргыз тили",
-        "countryCallingCode": "996",
+        "countryCallingCode": "+996",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇰🇬"
@@ -1684,7 +1684,7 @@
         "officialLanguageCode": "km",
         "officialLanguageNameEn": "Central Khmer",
         "officialLanguageNameLocal": "ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ",
-        "countryCallingCode": "855",
+        "countryCallingCode": "+855",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇰🇭"
@@ -1700,7 +1700,7 @@
         "officialLanguageCode": "ko",
         "officialLanguageNameEn": "Korean",
         "officialLanguageNameLocal": "조선어",
-        "countryCallingCode": "850",
+        "countryCallingCode": "+850",
         "areaCodes": [],
         "region": "Asia",
         "flag": "🇰🇵"
@@ -1716,7 +1716,7 @@
         "officialLanguageCode": "ko",
         "officialLanguageNameEn": "Korean",
         "officialLanguageNameLocal": "한국어",
-        "countryCallingCode": "82",
+        "countryCallingCode": "+82",
         "areaCodes": [],
         "region": "Asia",
         "flag": "🇰🇷"
@@ -1732,7 +1732,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "686",
+        "countryCallingCode": "+686",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇰🇮"
@@ -1748,7 +1748,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1869",
+        "countryCallingCode": "+1869",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇰🇳"
@@ -1764,7 +1764,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "965",
+        "countryCallingCode": "+965",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇰🇼"
@@ -1780,7 +1780,7 @@
         "officialLanguageCode": "kk",
         "officialLanguageNameEn": "Kazakh",
         "officialLanguageNameLocal": "қазақ тілі",
-        "countryCallingCode": "7",
+        "countryCallingCode": "+7",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇰🇿"
@@ -1796,7 +1796,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "961",
+        "countryCallingCode": "+961",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇱🇧"
@@ -1812,7 +1812,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1758",
+        "countryCallingCode": "+1758",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇱🇨"
@@ -1828,7 +1828,7 @@
         "officialLanguageCode": "de",
         "officialLanguageNameEn": "German",
         "officialLanguageNameLocal": "Deutsch",
-        "countryCallingCode": "423",
+        "countryCallingCode": "+423",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇱🇮"
@@ -1844,7 +1844,7 @@
         "officialLanguageCode": "si",
         "officialLanguageNameEn": "Sinhala, Sinhalese",
         "officialLanguageNameLocal": "සිංහල",
-        "countryCallingCode": "94",
+        "countryCallingCode": "+94",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇱🇰"
@@ -1860,7 +1860,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "231",
+        "countryCallingCode": "+231",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇱🇷"
@@ -1876,7 +1876,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "266",
+        "countryCallingCode": "+266",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇱🇸"
@@ -1892,7 +1892,7 @@
         "officialLanguageCode": "lt",
         "officialLanguageNameEn": "Lithuanian",
         "officialLanguageNameLocal": "lietuvių kalba",
-        "countryCallingCode": "370",
+        "countryCallingCode": "+370",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇱🇹"
@@ -1908,7 +1908,7 @@
         "officialLanguageCode": "lb",
         "officialLanguageNameEn": "Luxembourgish, Letzeburgesch",
         "officialLanguageNameLocal": "Lëtzebuergesch",
-        "countryCallingCode": "352",
+        "countryCallingCode": "+352",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇱🇺"
@@ -1924,7 +1924,7 @@
         "officialLanguageCode": "lv",
         "officialLanguageNameEn": "Latvian",
         "officialLanguageNameLocal": "latviešu valoda",
-        "countryCallingCode": "371",
+        "countryCallingCode": "+371",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇱🇻"
@@ -1940,7 +1940,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "218",
+        "countryCallingCode": "+218",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇱🇾"
@@ -1956,7 +1956,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "212",
+        "countryCallingCode": "+212",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇲🇦"
@@ -1972,7 +1972,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "377",
+        "countryCallingCode": "+377",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇲🇨"
@@ -1988,7 +1988,7 @@
         "officialLanguageCode": "srp",
         "officialLanguageNameEn": "српски језик",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "382",
+        "countryCallingCode": "+382",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇲🇪"
@@ -2004,7 +2004,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "590",
+        "countryCallingCode": "+590",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇲🇫"
@@ -2020,7 +2020,7 @@
         "officialLanguageCode": "mg",
         "officialLanguageNameEn": "Malagasy",
         "officialLanguageNameLocal": "fiteny malagasy",
-        "countryCallingCode": "261",
+        "countryCallingCode": "+261",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇲🇬"
@@ -2036,7 +2036,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "223",
+        "countryCallingCode": "+223",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇲🇱"
@@ -2052,7 +2052,7 @@
         "officialLanguageCode": "my",
         "officialLanguageNameEn": "Burmese",
         "officialLanguageNameLocal": "ဗမာစာ",
-        "countryCallingCode": "95",
+        "countryCallingCode": "+95",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇲🇲"
@@ -2068,7 +2068,7 @@
         "officialLanguageCode": "mn",
         "officialLanguageNameEn": "Mongolian",
         "officialLanguageNameLocal": "Монгол хэл",
-        "countryCallingCode": "976",
+        "countryCallingCode": "+976",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇲🇳"
@@ -2084,7 +2084,7 @@
         "officialLanguageCode": "zh-hant",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "853",
+        "countryCallingCode": "+853",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇲🇴"
@@ -2100,7 +2100,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "596",
+        "countryCallingCode": "+596",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇲🇶"
@@ -2116,7 +2116,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "222",
+        "countryCallingCode": "+222",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇲🇷"
@@ -2132,7 +2132,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1664",
+        "countryCallingCode": "+1664",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇲🇸"
@@ -2148,7 +2148,7 @@
         "officialLanguageCode": "mt",
         "officialLanguageNameEn": "Maltese",
         "officialLanguageNameLocal": "Malti",
-        "countryCallingCode": "356",
+        "countryCallingCode": "+356",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇲🇹"
@@ -2164,7 +2164,7 @@
         "officialLanguageCode": "mfe",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "230",
+        "countryCallingCode": "+230",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇲🇺"
@@ -2180,7 +2180,7 @@
         "officialLanguageCode": "dv",
         "officialLanguageNameEn": "Divehi, Dhivehi, Maldivian",
         "officialLanguageNameLocal": "ދިވެހި",
-        "countryCallingCode": "960",
+        "countryCallingCode": "+960",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇲🇻"
@@ -2196,7 +2196,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "265",
+        "countryCallingCode": "+265",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇲🇼"
@@ -2212,7 +2212,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "52",
+        "countryCallingCode": "+52",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇲🇽"
@@ -2228,7 +2228,7 @@
         "officialLanguageCode": "ms",
         "officialLanguageNameEn": "Malay",
         "officialLanguageNameLocal": "Bahasa Melayu, بهاس ملايو‎",
-        "countryCallingCode": "60",
+        "countryCallingCode": "+60",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇲🇾"
@@ -2244,7 +2244,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "258",
+        "countryCallingCode": "+258",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇲🇿"
@@ -2260,7 +2260,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "264",
+        "countryCallingCode": "+264",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇳🇦"
@@ -2276,7 +2276,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "687",
+        "countryCallingCode": "+687",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇨"
@@ -2292,7 +2292,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "672",
+        "countryCallingCode": "+672",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇫"
@@ -2308,7 +2308,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "234",
+        "countryCallingCode": "+234",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇳🇬"
@@ -2324,7 +2324,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "505",
+        "countryCallingCode": "+505",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇳🇮"
@@ -2340,7 +2340,7 @@
         "officialLanguageCode": "nb",
         "officialLanguageNameEn": "Norwegian Bokmål",
         "officialLanguageNameLocal": "Norsk Bokmål",
-        "countryCallingCode": "47",
+        "countryCallingCode": "+47",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇳🇴"
@@ -2356,7 +2356,7 @@
         "officialLanguageCode": "ne",
         "officialLanguageNameEn": "Nepali",
         "officialLanguageNameLocal": "नेपाली",
-        "countryCallingCode": "977",
+        "countryCallingCode": "+977",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇵"
@@ -2372,7 +2372,7 @@
         "officialLanguageCode": "na",
         "officialLanguageNameEn": "Nauru",
         "officialLanguageNameLocal": "Dorerin Naoero",
-        "countryCallingCode": "674",
+        "countryCallingCode": "+674",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇷"
@@ -2388,7 +2388,7 @@
         "officialLanguageCode": "niu",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "683",
+        "countryCallingCode": "+683",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇺"
@@ -2404,7 +2404,7 @@
         "officialLanguageCode": "mi",
         "officialLanguageNameEn": "Maori",
         "officialLanguageNameLocal": "te reo Māori",
-        "countryCallingCode": "64",
+        "countryCallingCode": "+64",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇳🇿"
@@ -2420,7 +2420,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "968",
+        "countryCallingCode": "+968",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇴🇲"
@@ -2436,7 +2436,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "507",
+        "countryCallingCode": "+507",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇵🇦"
@@ -2452,7 +2452,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "51",
+        "countryCallingCode": "+51",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇵🇪"
@@ -2468,7 +2468,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "689",
+        "countryCallingCode": "+689",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇫"
@@ -2484,7 +2484,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "675",
+        "countryCallingCode": "+675",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇬"
@@ -2500,7 +2500,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "92",
+        "countryCallingCode": "+92",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇰"
@@ -2516,7 +2516,7 @@
         "officialLanguageCode": "pl",
         "officialLanguageNameEn": "Polish",
         "officialLanguageNameLocal": "język polski, polszczyzna",
-        "countryCallingCode": "48",
+        "countryCallingCode": "+48",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇵🇱"
@@ -2532,7 +2532,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "508",
+        "countryCallingCode": "+508",
         "areaCodes": [],
         "region": "North America",
         "flag": "🇵🇲"
@@ -2548,7 +2548,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "64",
+        "countryCallingCode": "+64",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇳"
@@ -2564,7 +2564,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇵🇷"
@@ -2580,7 +2580,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "970",
+        "countryCallingCode": "+970",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇵🇸"
@@ -2596,7 +2596,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "351",
+        "countryCallingCode": "+351",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇵🇹"
@@ -2612,7 +2612,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "680",
+        "countryCallingCode": "+680",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇼"
@@ -2628,7 +2628,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "595",
+        "countryCallingCode": "+595",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇵🇾"
@@ -2644,7 +2644,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "974",
+        "countryCallingCode": "+974",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇶🇦"
@@ -2660,7 +2660,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "262",
+        "countryCallingCode": "+262",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇷🇪"
@@ -2676,7 +2676,7 @@
         "officialLanguageCode": "ro",
         "officialLanguageNameEn": "Romanian, Moldavian, Moldovan",
         "officialLanguageNameLocal": "Română",
-        "countryCallingCode": "40",
+        "countryCallingCode": "+40",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇷🇴"
@@ -2692,7 +2692,7 @@
         "officialLanguageCode": "sr",
         "officialLanguageNameEn": "Serbian",
         "officialLanguageNameLocal": "српски језик",
-        "countryCallingCode": "381",
+        "countryCallingCode": "+381",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇷🇸"
@@ -2708,7 +2708,7 @@
         "officialLanguageCode": "ru",
         "officialLanguageNameEn": "Russian",
         "officialLanguageNameLocal": "русский",
-        "countryCallingCode": "7",
+        "countryCallingCode": "+7",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇷🇺"
@@ -2724,7 +2724,7 @@
         "officialLanguageCode": "rw",
         "officialLanguageNameEn": "Kinyarwanda",
         "officialLanguageNameLocal": "Ikinyarwanda",
-        "countryCallingCode": "250",
+        "countryCallingCode": "+250",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇷🇼"
@@ -2740,7 +2740,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "966",
+        "countryCallingCode": "+966",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇸🇦"
@@ -2756,7 +2756,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "677",
+        "countryCallingCode": "+677",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇸🇧"
@@ -2772,7 +2772,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "248",
+        "countryCallingCode": "+248",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇨"
@@ -2788,7 +2788,7 @@
         "officialLanguageCode": "sv",
         "officialLanguageNameEn": "Swedish",
         "officialLanguageNameLocal": "Svenska",
-        "countryCallingCode": "46",
+        "countryCallingCode": "+46",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇸🇪"
@@ -2804,7 +2804,7 @@
         "officialLanguageCode": "zh-hans",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "65",
+        "countryCallingCode": "+65",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇸🇬"
@@ -2820,7 +2820,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "290",
+        "countryCallingCode": "+290",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇭"
@@ -2836,7 +2836,7 @@
         "officialLanguageCode": "sl",
         "officialLanguageNameEn": "Slovenian",
         "officialLanguageNameLocal": "Slovenski Jezik, Slovenščina",
-        "countryCallingCode": "386",
+        "countryCallingCode": "+386",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇸🇮"
@@ -2852,7 +2852,7 @@
         "officialLanguageCode": "no",
         "officialLanguageNameEn": "Norwegian",
         "officialLanguageNameLocal": "Norsk",
-        "countryCallingCode": "4779",
+        "countryCallingCode": "+4779",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇸🇯"
@@ -2868,7 +2868,7 @@
         "officialLanguageCode": "sk",
         "officialLanguageNameEn": "Slovak",
         "officialLanguageNameLocal": "Slovenčina, Slovenský Jazyk",
-        "countryCallingCode": "421",
+        "countryCallingCode": "+421",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇸🇰"
@@ -2884,7 +2884,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "232",
+        "countryCallingCode": "+232",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇱"
@@ -2900,7 +2900,7 @@
         "officialLanguageCode": "it",
         "officialLanguageNameEn": "Italian",
         "officialLanguageNameLocal": "Italiano",
-        "countryCallingCode": "378",
+        "countryCallingCode": "+378",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇸🇲"
@@ -2916,7 +2916,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "221",
+        "countryCallingCode": "+221",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇳"
@@ -2932,7 +2932,7 @@
         "officialLanguageCode": "so",
         "officialLanguageNameEn": "Somali",
         "officialLanguageNameLocal": "Soomaaliga, af Soomaali",
-        "countryCallingCode": "252",
+        "countryCallingCode": "+252",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇸🇴"
@@ -2948,7 +2948,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "597",
+        "countryCallingCode": "+597",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇸🇷"
@@ -2964,7 +2964,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "211",
+        "countryCallingCode": "+211",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇸"
@@ -2980,7 +2980,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "239",
+        "countryCallingCode": "+239",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇹"
@@ -2996,7 +2996,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "503",
+        "countryCallingCode": "+503",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇸🇻"
@@ -3012,7 +3012,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "1721",
+        "countryCallingCode": "+1721",
         "areaCodes": [],
         "region": "Unknown",
         "flag": "🇸🇽"
@@ -3028,7 +3028,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "963",
+        "countryCallingCode": "+963",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇸🇾"
@@ -3044,7 +3044,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "235",
+        "countryCallingCode": "+235",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇹🇩"
@@ -3060,7 +3060,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "228",
+        "countryCallingCode": "+228",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇹🇬"
@@ -3076,7 +3076,7 @@
         "officialLanguageCode": "th",
         "officialLanguageNameEn": "Thai",
         "officialLanguageNameLocal": "ไทย",
-        "countryCallingCode": "66",
+        "countryCallingCode": "+66",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇭"
@@ -3092,7 +3092,7 @@
         "officialLanguageCode": "tg",
         "officialLanguageNameEn": "Tajik",
         "officialLanguageNameLocal": "тоҷикӣ, toçikī, تاجیکی‎",
-        "countryCallingCode": "992",
+        "countryCallingCode": "+992",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇯"
@@ -3108,7 +3108,7 @@
         "officialLanguageCode": "tkl",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "690",
+        "countryCallingCode": "+690",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇰"
@@ -3124,7 +3124,7 @@
         "officialLanguageCode": "pt",
         "officialLanguageNameEn": "Portuguese",
         "officialLanguageNameLocal": "Português",
-        "countryCallingCode": "670",
+        "countryCallingCode": "+670",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇱"
@@ -3140,7 +3140,7 @@
         "officialLanguageCode": "tk",
         "officialLanguageNameEn": "Turkmen",
         "officialLanguageNameLocal": "Türkmen, Түркмен",
-        "countryCallingCode": "993",
+        "countryCallingCode": "+993",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇲"
@@ -3156,7 +3156,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "216",
+        "countryCallingCode": "+216",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇹🇳"
@@ -3172,7 +3172,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "676",
+        "countryCallingCode": "+676",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇴"
@@ -3188,7 +3188,7 @@
         "officialLanguageCode": "tr",
         "officialLanguageNameEn": "Turkish",
         "officialLanguageNameLocal": "Türkçe",
-        "countryCallingCode": "90",
+        "countryCallingCode": "+90",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇹🇷"
@@ -3204,7 +3204,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "868",
+        "countryCallingCode": "+868",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇹🇹"
@@ -3220,7 +3220,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "688",
+        "countryCallingCode": "+688",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇻"
@@ -3236,7 +3236,7 @@
         "officialLanguageCode": "sw",
         "officialLanguageNameEn": "Swahili",
         "officialLanguageNameLocal": "Kiswahili",
-        "countryCallingCode": "255",
+        "countryCallingCode": "+255",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇹🇿"
@@ -3252,7 +3252,7 @@
         "officialLanguageCode": "uk",
         "officialLanguageNameEn": "Ukrainian",
         "officialLanguageNameLocal": "Українська",
-        "countryCallingCode": "380",
+        "countryCallingCode": "+380",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇺🇦"
@@ -3268,7 +3268,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "256",
+        "countryCallingCode": "+256",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇺🇬"
@@ -3284,7 +3284,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [],
         "region": "North America",
         "flag": "🇺🇸"
@@ -3300,7 +3300,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "598",
+        "countryCallingCode": "+598",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇺🇾"
@@ -3316,7 +3316,7 @@
         "officialLanguageCode": "uz",
         "officialLanguageNameEn": "Uzbek",
         "officialLanguageNameLocal": "Oʻzbek, Ўзбек, أۇزبېك‎",
-        "countryCallingCode": "998",
+        "countryCallingCode": "+998",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇺🇿"
@@ -3332,7 +3332,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1784",
+        "countryCallingCode": "+1784",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇻🇨"
@@ -3348,7 +3348,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "58",
+        "countryCallingCode": "+58",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇻🇪"
@@ -3364,7 +3364,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1284",
+        "countryCallingCode": "+1284",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇻🇬"
@@ -3380,7 +3380,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1340",
+        "countryCallingCode": "+1340",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇻🇮"
@@ -3396,7 +3396,7 @@
         "officialLanguageCode": "vi",
         "officialLanguageNameEn": "Vietnamese",
         "officialLanguageNameLocal": "Tiếng Việt",
-        "countryCallingCode": "84",
+        "countryCallingCode": "+84",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇻🇳"
@@ -3412,7 +3412,7 @@
         "officialLanguageCode": "bi",
         "officialLanguageNameEn": "Bislama",
         "officialLanguageNameLocal": "Bislama",
-        "countryCallingCode": "678",
+        "countryCallingCode": "+678",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇻🇺"
@@ -3428,7 +3428,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "681",
+        "countryCallingCode": "+681",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇼🇫"
@@ -3444,7 +3444,7 @@
         "officialLanguageCode": "sm",
         "officialLanguageNameEn": "Samoan",
         "officialLanguageNameLocal": "gagana fa'a Samoa",
-        "countryCallingCode": "685",
+        "countryCallingCode": "+685",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇼🇸"
@@ -3460,7 +3460,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "967",
+        "countryCallingCode": "+967",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇾🇪"
@@ -3476,7 +3476,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "262",
+        "countryCallingCode": "+262",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇾🇹"
@@ -3492,7 +3492,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "27",
+        "countryCallingCode": "+27",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇿🇦"
@@ -3508,7 +3508,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "260",
+        "countryCallingCode": "+260",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇿🇲"
@@ -3524,7 +3524,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "263",
+        "countryCallingCode": "+263",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇿🇼"
@@ -3540,7 +3540,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "268",
+        "countryCallingCode": "+268",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇸🇿"
@@ -3556,7 +3556,7 @@
         "officialLanguageCode": "mk",
         "officialLanguageNameEn": "Macedonian",
         "officialLanguageNameLocal": "македонски јазик",
-        "countryCallingCode": "389",
+        "countryCallingCode": "+389",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇲🇰"
@@ -3572,7 +3572,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "63",
+        "countryCallingCode": "+63",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇵🇭"
@@ -3588,7 +3588,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "31",
+        "countryCallingCode": "+31",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇳🇱"
@@ -3604,7 +3604,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "971",
+        "countryCallingCode": "+971",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇦🇪"
@@ -3620,7 +3620,7 @@
         "officialLanguageCode": "ro",
         "officialLanguageNameEn": "Romanian, Moldavian, Moldovan",
         "officialLanguageNameLocal": "Română",
-        "countryCallingCode": "373",
+        "countryCallingCode": "+373",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇲🇩"
@@ -3636,7 +3636,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "220",
+        "countryCallingCode": "+220",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇬🇲"
@@ -3652,7 +3652,7 @@
         "officialLanguageCode": "es",
         "officialLanguageNameEn": "Spanish, Castilian",
         "officialLanguageNameLocal": "Español",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [],
         "region": "South/Latin America",
         "flag": "🇩🇴"
@@ -3668,7 +3668,7 @@
         "officialLanguageCode": "ar",
         "officialLanguageNameEn": "Arabic",
         "officialLanguageNameLocal": "العربية",
-        "countryCallingCode": "249",
+        "countryCallingCode": "+249",
         "areaCodes": [],
         "region": "Arab States",
         "flag": "🇸🇩"
@@ -3684,7 +3684,7 @@
         "officialLanguageCode": "lo",
         "officialLanguageNameEn": "Lao",
         "officialLanguageNameLocal": "ພາສາລາວ",
-        "countryCallingCode": "856",
+        "countryCallingCode": "+856",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇱🇦"
@@ -3700,7 +3700,7 @@
         "officialLanguageCode": "zh-hant",
         "officialLanguageNameEn": "",
         "officialLanguageNameLocal": "",
-        "countryCallingCode": "886",
+        "countryCallingCode": "+886",
         "areaCodes": [],
         "region": "Asia & Pacific",
         "flag": "🇹🇼"
@@ -3716,7 +3716,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "242",
+        "countryCallingCode": "+242",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇬"
@@ -3732,7 +3732,7 @@
         "officialLanguageCode": "cs",
         "officialLanguageNameEn": "Czech",
         "officialLanguageNameLocal": "Čeština",
-        "countryCallingCode": "420",
+        "countryCallingCode": "+420",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇨🇿"
@@ -3748,7 +3748,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "44",
+        "countryCallingCode": "+44",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇬🇧"
@@ -3764,7 +3764,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "227",
+        "countryCallingCode": "+227",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇳🇪"
@@ -3780,7 +3780,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "243",
+        "countryCallingCode": "+243",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇩"
@@ -3796,7 +3796,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1 242",
+        "countryCallingCode": "+1 242",
         "areaCodes": [],
         "region": "Caribbean",
         "flag": "🇧🇸"
@@ -3812,7 +3812,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "61 891",
+        "countryCallingCode": "+61 891",
         "areaCodes": [],
         "region": "Australia",
         "flag": "🇨🇨"
@@ -3828,7 +3828,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "236",
+        "countryCallingCode": "+236",
         "areaCodes": [],
         "region": "Africa",
         "flag": "🇨🇫"
@@ -3844,7 +3844,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "682",
+        "countryCallingCode": "+682",
         "areaCodes": [],
         "region": "South Pacific Ocean",
         "flag": "🇨🇰"
@@ -3860,7 +3860,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "500",
+        "countryCallingCode": "+500",
         "areaCodes": [],
         "region": "South Atlantic Ocean",
         "flag": "🇫🇰"
@@ -3876,7 +3876,7 @@
         "officialLanguageCode": "da",
         "officialLanguageNameEn": "Danish",
         "officialLanguageNameLocal": "dansk",
-        "countryCallingCode": "298",
+        "countryCallingCode": "+298",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇫🇴"
@@ -3892,7 +3892,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "672",
+        "countryCallingCode": "+672",
         "areaCodes": [],
         "region": "Indian Ocean",
         "flag": "🇭🇲"
@@ -3908,7 +3908,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "246",
+        "countryCallingCode": "+246",
         "areaCodes": [],
         "region": "Indian Ocean",
         "flag": "🇮🇴"
@@ -3924,7 +3924,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "269",
+        "countryCallingCode": "+269",
         "areaCodes": [],
         "region": "Indian Ocean",
         "flag": "🇰🇲"
@@ -3940,7 +3940,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1 345",
+        "countryCallingCode": "+1 345",
         "areaCodes": [],
         "region": "Caribbean Sea",
         "flag": "🇰🇾"
@@ -3956,7 +3956,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "692",
+        "countryCallingCode": "+692",
         "areaCodes": [],
         "region": "Pacific Ocean",
         "flag": "🇲🇭"
@@ -3972,7 +3972,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1 670",
+        "countryCallingCode": "+1 670",
         "areaCodes": [],
         "region": "Pacific Ocean",
         "flag": "🇲🇵"
@@ -3988,7 +3988,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1 649",
+        "countryCallingCode": "+1 649",
         "areaCodes": [],
         "region": "Atlantic Ocean",
         "flag": "🇹🇨"
@@ -4004,7 +4004,7 @@
         "officialLanguageCode": "fr",
         "officialLanguageNameEn": "French",
         "officialLanguageNameLocal": "Français",
-        "countryCallingCode": "672",
+        "countryCallingCode": "+672",
         "areaCodes": [],
         "region": "Indian Ocean",
         "flag": "🇹🇫"
@@ -4020,7 +4020,7 @@
         "officialLanguageCode": "en",
         "officialLanguageNameEn": "English",
         "officialLanguageNameLocal": "English",
-        "countryCallingCode": "1",
+        "countryCallingCode": "+1",
         "areaCodes": [],
         "region": "Pacific Ocean",
         "flag": "🇺🇲"
@@ -4036,7 +4036,7 @@
         "officialLanguageCode": "la",
         "officialLanguageNameEn": "Latin",
         "officialLanguageNameLocal": "lingua latīna",
-        "countryCallingCode": "39",
+        "countryCallingCode": "+39",
         "areaCodes": [],
         "region": "Europe",
         "flag": "🇻🇦"
@@ -4052,7 +4052,7 @@
         "officialLanguageCode": "sq",
         "officialLanguageNameEn": "Albanian",
         "officialLanguageNameLocal": "Shqip",
-        "countryCallingCode": "383",
+        "countryCallingCode": "+383",
         "region": "Europe",
         "flag": "🇽🇰"
     },
@@ -4067,7 +4067,7 @@
         "officialLanguageCode": "nl",
         "officialLanguageNameEn": "Dutch, Flemish",
         "officialLanguageNameLocal": "Nederlands, Vlaams",
-        "countryCallingCode": "599",
+        "countryCallingCode": "+599",
         "region": "Europe",
         "flag": "🇧🇶"
     }

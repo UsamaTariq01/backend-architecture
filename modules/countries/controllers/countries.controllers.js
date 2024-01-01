@@ -21,17 +21,17 @@ const fetchCountries = async (req, res, next) => {
 
                 [Op.or]: [
                     {
-                        name:{
+                        name: {
                             [Op.like]: `%${searchText}%`
                         }
                     },
                     {
-                        region:{
+                        region: {
                             [Op.like]: `%${searchText}%`
                         }
                     },
                     {
-                        countryCallingCode:{
+                        countryCallingCode: {
                             [Op.like]: `%${searchText}%`
                         }
                     }
