@@ -4,6 +4,11 @@
         "ar": "AR",
         "fr": "FR"
     },
+    "allowedLanguagesArray": [
+        "EN",
+        "AR",
+        "FR"
+    ],
     "genders": [
         "male",
         "female",

@@ -1,6 +1,6 @@
 const GlobalLib = require('../../utils'),
     Logger = require('../../../configurations/logger.winston'),
-    { check, param } = require('express-validator');
+    { check, param, body } = require('express-validator');
 
 const validateUserSignUp = async (req, res, next) => {
 
@@ -122,13 +122,13 @@ const validateUpdateProfile = async (req, res, next) => {
 
     try {
 
-        await check('name').optional().trim().escape().isString().withMessage(105).run(req);
-        await check('faceId').optional().trim().escape().isBoolean().withMessage(119).run(req);
-        await check('biometric').optional().trim().escape().isBoolean().withMessage(120).run(req);
-        await check('language').optional().trim().escape().isString().isIn(global.config.languagesAllowed)
+        await body('name').optional().trim().escape().isString().withMessage(105).run(req);
+        await body('faceId').optional().trim().escape().isBoolean().withMessage(119).run(req);
+        await body('biometric').optional().trim().escape().isBoolean().withMessage(120).run(req);
+        await body('language').optional().trim().escape().isString().isIn(global.config.allowedLanguagesArray)
             .withMessage(121).run(req);
-        await check('profileImage').optional().trim().escape().isString().isURL().withMessage(122).run(req);
-        await check('gender').optional().trim().escape().isString()
+        await body('profileImage').optional({ values: 'falsy' }).trim().escape().isString().isURL().withMessage(122).run(req);
+        await body('gender').optional().trim().escape().isString()
             .isIn(global.config.genders).withMessage(105).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
