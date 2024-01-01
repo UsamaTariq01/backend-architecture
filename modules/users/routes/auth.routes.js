@@ -39,9 +39,17 @@ module.exports = (app, version) => {
 
     );
     app.post(
-        `${version + moduleName}/login`,
+        `${version + moduleName}/email/login`,
         userValidator.validateEmail,
         userHelper.isEmailExistsDoseNotExists,
+        authController.userSignIn,
+        authController.loginSuccessResponseUser
+
+    );
+    app.post(
+        `${version + moduleName}/phone/login`,
+        userValidator.validatePhoneNumber,
+        userHelper.isPhoneNumberDoseNotExists,
         authController.userSignIn,
         authController.loginSuccessResponseUser
 

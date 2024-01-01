@@ -47,5 +47,12 @@
             "AR":"",
             "FR":""
         }
+    },
+    "108": {
+        "msg": {
+            "EN":"successfully logged-In",
+            "AR":"",
+            "FR":""
+        }
     }
 }

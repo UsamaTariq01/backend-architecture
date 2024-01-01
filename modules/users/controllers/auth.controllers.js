@@ -159,7 +159,7 @@ const phoneNumberVerification = async (req, res, next) => {
                 phone: phoneNumber
             }
         });
-        console.log(req.params.lang);
+
         return Response.sendResponse(
             res,
             {
@@ -288,7 +288,7 @@ const loginSuccessResponseUser = async (req, res, next) => {
         return Response.sendResponse(
             res,
             {
-                msg: 103,
+                msg: 108,
                 data: {
                     id: req.user.id,
                     name: req.user.fullName,

@@ -120,7 +120,6 @@ const isEmailExistsDoseNotExists = async (req, res, next) => {
             return next({ msg: 116 });
 
         }
-        console.log('herere');
         return next();
 
     } catch (error) {
