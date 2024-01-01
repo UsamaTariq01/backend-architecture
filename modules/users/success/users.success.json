@@ -40,5 +40,12 @@
             "AR":"",
             "FR":""
         }
+    },
+    "107": {
+        "msg": {
+            "EN":"your email has been resetted",
+            "AR":"",
+            "FR":""
+        }
     }
 }

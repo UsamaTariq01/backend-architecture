@@ -31,6 +31,14 @@ module.exports = (app, version) => {
         userController.changePassword
 
     );
+    app.put(
+        `${version + moduleName}/change/email`,
+        passport.authenticate('jwt', { session: false }),
+        userValidator.validateEmail,
+        userHelper.isEmailExists,
+        userController.changeEmail
+
+    );
     app.post(
         `${version + moduleName}/image`,
         passport.authenticate('jwt', { session: false }),
