@@ -23,12 +23,12 @@ module.exports = (app, version) => {
 
     );
     app.put(
-        `${version + moduleName}/reset/password`,
+        `${version + moduleName}/change/password`,
         passport.authenticate('jwt', { session: false }),
         userValidator.validateNewOldPassword,
         userHelper.setupUserEmail,
         authController.userSignIn,
-        userController.resetUserPassword
+        userController.changePassword
 
     );
     app.post(

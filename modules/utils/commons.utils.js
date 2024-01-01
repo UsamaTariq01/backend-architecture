@@ -44,5 +44,5 @@ const signJwt = (user) => {
 module.exports = {
     generateRandomNumber,
     sendSMS,
-    signJwt,
+    signJwt
 };

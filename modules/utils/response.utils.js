@@ -7,8 +7,9 @@ const ValidateResponse = (msg, req, res, next) => {
 
 
     const response = validationResult(req).formatWith({ onlyFirstError: true });
-    console.log(response,'here');
+    console.log(response, 'here');
     if (!response.isEmpty() && response.errors.length > 0) {
+
         console.log(response.errors);
         const errorsArray = response.errors;
         Logger.error(`message: ${msg}, error: ${errorsArray[0]}`);
