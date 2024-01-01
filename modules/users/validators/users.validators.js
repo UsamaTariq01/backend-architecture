@@ -11,6 +11,7 @@ const validateUserSignUp = async (req, res, next) => {
             .normalizeEmail({ all_lowercase: true })
             .withMessage(104).run(req);
         await check('name').notEmpty().trim().escape().isString().withMessage(105).run(req);
+        await check('countryId').notEmpty().trim().escape().isInt({ min: 1 }).withMessage(124).run(req);
         return GlobalLib.ValidateResponse('Initial Registration', req, res, next);
 
     } catch (err) {

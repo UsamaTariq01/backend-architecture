@@ -1,7 +1,7 @@
 {
     "1000": {
         "msg": {
-            "EN": "Please provide valid phoneNumber",
+            "EN": "country does not exists, please choose from the list",
             "AR": "",
             "FR":""
         }

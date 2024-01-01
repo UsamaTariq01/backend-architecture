@@ -20,7 +20,8 @@ const userSignUp = async (req, res, next) => {
             name: req.body.name,
             phoneVerificationCode,
             phoneVerificationDateTime: currentTime,
-            email: req.body.email
+            email: req.body.email,
+            countryId: req.body.countryId
 
         });
 

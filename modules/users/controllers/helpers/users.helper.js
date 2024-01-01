@@ -79,6 +79,32 @@ const isEmailExists = async (req, res, next) => {
     }
 
 };
+const isCountryIdExists = async (req, res, next) => {
+
+    try {
+
+        const isCountry = await models.countries.count({
+            where: {
+                id:req.body.countryId
+            },
+            raw: true
+        });
+        if (!isCountry) {
+
+            return next({ msg: 1000 });
+
+        }
+
+        return next();
+
+    } catch (error) {
+
+        logger.error(error);
+        return next({ msg: 3067 });
+
+    }
+
+};
 const isEmailExistsDoseNotExists = async (req, res, next) => {
 
     try {
@@ -128,5 +154,6 @@ module.exports = {
     isEmailExists,
     isPhoneNumberDoseNotExists,
     isEmailExistsDoseNotExists,
-    setupUserEmail
+    setupUserEmail,
+    isCountryIdExists
 };

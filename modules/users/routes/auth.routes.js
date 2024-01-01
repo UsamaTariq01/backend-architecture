@@ -11,6 +11,7 @@ module.exports = (app, version) => {
         userValidator.validateUserSignUp,
         userHelper.isPhoneNumberExists,
         userHelper.isEmailExists,
+        userHelper.isCountryIdExists,
         authController.userSignUp
 
     );
