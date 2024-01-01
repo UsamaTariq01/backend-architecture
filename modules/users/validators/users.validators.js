@@ -6,12 +6,12 @@ const validateUserSignUp = async (req, res, next) => {
 
     try {
 
-        await check('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
-        await check('email').notEmpty().trim().escape().isString().isEmail()
+        await body('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
+        await body('email').notEmpty().trim().escape().isString().isEmail()
             .normalizeEmail({ all_lowercase: true })
             .withMessage(104).run(req);
-        await check('name').notEmpty().trim().escape().isString().withMessage(105).run(req);
-        await check('countryId').notEmpty().trim().escape().isInt({ min: 1 }).withMessage(124).run(req);
+        await body('name').notEmpty().trim().escape().isString().withMessage(105).run(req);
+        await body('countryId').notEmpty().trim().escape().isInt({ min: 1 }).withMessage(124).run(req);
         return GlobalLib.ValidateResponse('Initial Registration', req, res, next);
 
     } catch (err) {
@@ -26,7 +26,7 @@ const validatePhoneNumber = async (req, res, next) => {
 
     try {
 
-        await check('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
+        await body('phoneNumber').notEmpty().trim().escape().isMobilePhone().withMessage(100).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
@@ -41,7 +41,7 @@ const validateEmail = async (req, res, next) => {
 
     try {
 
-        await check('email').notEmpty().trim().escape().isString().isEmail()
+        await body('email').notEmpty().trim().escape().isString().isEmail()
             .normalizeEmail({ all_lowercase: true })
             .withMessage(104).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
@@ -73,7 +73,7 @@ const validatePassword = async (req, res, next) => {
 
     try {
 
-        await check('password').notEmpty().trim().escape()
+        await body('password').notEmpty().trim().escape()
             .isString()
             .isStrongPassword({
                 minLength: 8,
@@ -97,7 +97,7 @@ const validateNewOldPassword = async (req, res, next) => {
 
     try {
 
-        await check('newPassword').notEmpty().trim().escape()
+        await body('newPassword').notEmpty().trim().escape()
             .isString()
             .isStrongPassword({
                 minLength: 8,
@@ -107,7 +107,7 @@ const validateNewOldPassword = async (req, res, next) => {
                 minSymbols: 1
             })
             .withMessage(115).run(req);
-        await check('oldPassword').notEmpty().isString().trim().escape().withMessage(123).run(req);
+        await body('oldPassword').notEmpty().isString().trim().escape().withMessage(123).run(req);
         return GlobalLib.ValidateResponse('resend', req, res, next);
 
     } catch (err) {
