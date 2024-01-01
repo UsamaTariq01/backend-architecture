@@ -22,28 +22,28 @@
     },
     "1004": {
         "msg": {
-            "EN": "please provide valid email",
+            "EN": "please provide proper limit",
             "AR": "",
             "FR":""
         }
     },
     "1005": {
         "msg": {
-            "EN": "please provide name",
+            "EN": "please provide valid offset",
             "AR": "",
             "FR":""
         }
     },
     "1006": {
         "msg": {
-            "EN": "email already exists in the system",
+            "EN": "please provide valid search Text",
             "AR": "",
             "FR":""
         }
     },
     "1007": {
         "msg": {
-            "EN": "error occured while validating",
+            "EN": "valid sort options are [ASC, DESC]",
             "AR": "",
             "FR":""
         }

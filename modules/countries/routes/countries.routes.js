@@ -1,6 +1,6 @@
 const countryController = require('../controllers/countries.controllers'),
     // authController = require('../controllers/auth.controllers'),
-    // userValidator = require('../validators/countries.validators'),
+    countryValidator = require('../validators/countries.validators'),
     // userHelper = require('../controllers/helpers/users.helper'),
     fileUpload = require('../../../configurations/config.multer'),
     profileImage = fileUpload.upload(global.config.aws.s3.folders.profileImages),
@@ -11,6 +11,7 @@ module.exports = (app, version) => {
     const moduleName = '/countries';
     app.get(
         `${version + moduleName}`,
+        countryValidator.validateCountryListing,
         countryController.fetchCountries
 
     );
