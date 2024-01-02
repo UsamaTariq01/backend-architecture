@@ -26,8 +26,7 @@ module.exports = (app, version) => {
         `${version + moduleName}/change/password`,
         passport.authenticate('jwt', { session: false }),
         userValidator.validateNewOldPassword,
-        userHelper.setupUserEmail,
-        authController.userSignIn,
+        userHelper.verifyEmailOrPhoneAndPassword,
         userController.changePassword
 
     );

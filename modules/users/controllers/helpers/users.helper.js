@@ -1,5 +1,6 @@
 const models = require('../../../../configurations/config.sequelize').models,
-    logger = require('../../../../configurations/logger.winston');
+    logger = require('../../../../configurations/logger.winston'),
+    authController = require('../auth.controllers');
 
 const isPhoneNumberExists = async (req, res, next) => {
 
@@ -67,6 +68,32 @@ const isPhoneVerified = async (req, res, next) => {
         if (!isPhoneNumberExistsAndVerified) {
 
             return next({ msg: 125 });
+
+        }
+        return next();
+
+    } catch (error) {
+
+        logger.error(error);
+        return next({ msg: 3067 });
+
+    }
+
+};
+const isEmailVerified = async (req, res, next) => {
+
+    try {
+
+        const isEmailExistsAndVerified = await models.users.findOne({
+            where: {
+                phone: req.body.email,
+                isEmailVerified: true
+            },
+            raw: true
+        });
+        if (!isEmailExistsAndVerified) {
+
+            return next({ msg: 126 });
 
         }
         return next();
@@ -157,13 +184,23 @@ const isEmailExistsDoseNotExists = async (req, res, next) => {
 
 };
 
-const setupUserEmail = async (req, res, next) => {
+const verifyEmailOrPhoneAndPassword = (req, res, next) => {
 
     try {
 
-        req.body.email = req.user.email;
         req.body.password = req.body.oldPassword;
-        return next();
+        if (req.user.isEmailVerified) {
+
+            req.body.email = req.user.email;
+            return authController.userSignIn('user-email-login', req, res, next);
+
+        } else if (req.user.isPhoneVerified) {
+
+            req.body.phoneNumber = req.user.phone;
+            return authController.userSignIn('user-phone-login', req, res, next);
+
+        }
+        return next({ msg: 127 });
 
     } catch (err) {
 
@@ -179,7 +216,8 @@ module.exports = {
     isEmailExists,
     isPhoneNumberDoseNotExists,
     isEmailExistsDoseNotExists,
-    setupUserEmail,
+    verifyEmailOrPhoneAndPassword,
     isCountryIdExists,
-    isPhoneVerified
+    isPhoneVerified,
+    isEmailVerified
 };

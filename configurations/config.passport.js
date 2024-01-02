@@ -112,7 +112,8 @@ passport.use(new JwtStrategy(jwtOptions, async (jwtPayload, done) => {
         const user = await models.users.findOne({
             where: {
                 id: jwtPayload.id
-            }
+            },
+            raw: true
         });
 
         if (!user || user.status !== 1) {

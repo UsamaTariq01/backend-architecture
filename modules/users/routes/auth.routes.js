@@ -48,7 +48,8 @@ module.exports = (app, version) => {
         `${version + moduleName}/email/login`,
         userValidator.validateEmail,
         userHelper.isEmailExistsDoseNotExists,
-        authController.userSignIn,
+        userHelper.isEmailVerified,
+        authController.userEmailSignIn,
         authController.loginSuccessResponseUser
 
     );

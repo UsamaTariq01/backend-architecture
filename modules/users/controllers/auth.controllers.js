@@ -1,8 +1,6 @@
 const Response = require('../../../configurations/config.response'),
     models = require('../../../configurations/config.sequelize').models,
     moment = require('moment'),
-    bcrypt = require('bcrypt'),
-    jwt = require('jsonwebtoken'),
     passport = require('../../../configurations/config.passport'),
     globalUtils = require('../../utils');
 
@@ -242,48 +240,6 @@ const passwordSetup = async (req, res, next) => {
 
 };
 
-const userSignIn = (req, res, next) => {
-
-    passport.authenticate('user', (err, user, info) => {
-
-        if (err) {
-
-            return next(err);
-
-        }
-        if (!user) {
-
-            return next(info);
-
-        }
-
-        req.user = user;
-
-        req.token = globalUtils.signJwt({
-            id: user.id,
-            name: user.name,
-            email: user.email
-        });
-
-        models.users.update({
-
-            userSessionToken: req.token
-        },
-        {
-            where: {
-                id: user.id
-            }
-        });
-
-        res.setHeader('Access-Control-Expose-Headers', 'Authorization');
-        res.setHeader('Authorization', req.token);
-
-        return next();
-
-    })(req, res, next);
-
-};
-
 //* ************************send login success response ************************/
 const loginSuccessResponseUser = (req, res, next) => {
 
@@ -392,49 +348,25 @@ const sendLogInPhoneNumberOtp = async (req, res, next) => {
 //* ******************** ***** user sign in by phone number ************************/
 const userSignInPhoneNumber = (req, res, next) => {
 
-    passport.authenticate('user-phone-login', (err, user, info) => {
-
-        if (err) {
-
-            return next(err);
-
-        }
-        if (!user) {
-
-            return next(info);
-
-        }
-
-        req.user = user;
-
-        req.token = globalUtils.signJwt({
-            id: user.id,
-            name: user.name,
-            email: user.email
-        });
-
-        models.users.update({
-
-            userSessionToken: req.token
-        },
-        {
-            where: {
-                id: user.id
-            }
-        });
-
-        res.setHeader('Access-Control-Expose-Headers', 'Authorization');
-        res.setHeader('Authorization', req.token);
-
-        return next();
-
-    })(req, res, next);
+    userSignIn('user-phone-login', req, res, next);
 
 };
 //* ******************** ***** user sign in by otp number ************************/
 const userSignInOtpPhoneNumber = (req, res, next) => {
 
-    passport.authenticate('user-otp-login-phoneNumber', (err, user, info) => {
+    userSignIn('user-otp-login-phoneNumber', req, res, next);
+
+};
+//* **************************user email sign-In *********************************/
+const userEmailSignIn = (req, res, next) => {
+
+    userSignIn('user-email-login', req, res, next);
+
+};
+// * ********************Sign-In methods processing **************************/
+function userSignIn (method, req, res, next) {
+
+    passport.authenticate(method, (err, user, info) => {
 
         if (err) {
 
@@ -472,16 +404,17 @@ const userSignInOtpPhoneNumber = (req, res, next) => {
 
     })(req, res, next);
 
-};
+}
 module.exports = {
     userSignUp,
     resendUserPhoneNumberVerificationCode,
     phoneNumberVerification,
     passwordSetup,
-    userSignIn,
+    userEmailSignIn,
     loginSuccessResponseUser,
     sendLogInPhoneNumberOtp,
     userSignInPhoneNumber,
     // verifyOtpTime
-    userSignInOtpPhoneNumber
+    userSignInOtpPhoneNumber,
+    userSignIn
 };

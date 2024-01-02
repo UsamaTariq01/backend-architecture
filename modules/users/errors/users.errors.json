@@ -173,5 +173,19 @@
             "AR": "",
             "FR":""
         }
+    },
+    "126": {
+        "msg": {
+            "EN": "please verify your email first",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "127": {
+        "msg": {
+            "EN": "please verify your phone or email first",
+            "AR": "",
+            "FR":""
+        }
     }
 }
