@@ -10,20 +10,20 @@ module.exports = (app, version) => {
     const moduleName = '/user/profile';
     app.get(
         `${version + moduleName}`,
-        passport.authenticate('jwt', { session: false }),
+        passport.authenticate('user', { session: false }),
         userController.userProfileResponse
 
     );
     app.put(
         `${version + moduleName}/update`,
-        passport.authenticate('jwt', { session: false }),
+        passport.authenticate('user', { session: false }),
         userValidator.validateUpdateProfile,
         userController.updateUserProfile
 
     );
     app.put(
         `${version + moduleName}/change/password`,
-        passport.authenticate('jwt', { session: false }),
+        passport.authenticate('user', { session: false }),
         userValidator.validateNewOldPassword,
         userHelper.verifyEmailOrPhoneAndPassword,
         userController.changePassword
@@ -31,7 +31,7 @@ module.exports = (app, version) => {
     );
     app.put(
         `${version + moduleName}/change/email`,
-        passport.authenticate('jwt', { session: false }),
+        passport.authenticate('user', { session: false }),
         userValidator.validateEmail,
         userHelper.isEmailExists,
         userController.changeEmail
@@ -39,7 +39,7 @@ module.exports = (app, version) => {
     );
     app.post(
         `${version + moduleName}/image`,
-        passport.authenticate('jwt', { session: false }),
+        passport.authenticate('user', { session: false }),
         profileImage.array('profileImage', 1),
         fileUpload.uploadImageResponse
 

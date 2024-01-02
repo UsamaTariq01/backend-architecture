@@ -101,7 +101,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: true
         },
         loginOtp: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(10),
             defaultValue: null,
             allowNull: true
         },
@@ -110,7 +110,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: true
         },
         transactionOtp: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(10),
             defaultValue: null,
             allowNull: true
         },
