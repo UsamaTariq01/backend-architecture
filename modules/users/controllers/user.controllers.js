@@ -6,12 +6,10 @@ const Response = require('../../../configurations/config.response'),
     passport = require('../../../configurations/config.passport'),
     globalUtils = require('../../utils');
 
-
+//* *********************** user profile response *************************/
 const userProfileResponse = (req, res, next) => {
 
     try {
-
-        console.log(req.user);
 
         return Response.sendResponse(
             res,
@@ -33,6 +31,7 @@ const userProfileResponse = (req, res, next) => {
     }
 
 };
+//* ******************************* update user profile *********************************** */
 const updateUserProfile = async (req, res, next) => {
 
     try {
@@ -77,6 +76,7 @@ const updateUserProfile = async (req, res, next) => {
     }
 
 };
+//* ************************** change user own password *************************** */
 const changePassword = async (req, res, next) => {
 
     try {
@@ -109,6 +109,7 @@ const changePassword = async (req, res, next) => {
     }
 
 };
+//* ***************************** change user email *****************************/
 const changeEmail = async (req, res, next) => {
 
     try {
