@@ -54,5 +54,12 @@
             "AR":"",
             "FR":""
         }
+    },
+    "109": {
+        "msg": {
+            "EN":"otp sent, if OTP is not received within a minute you can request a new one.",
+            "AR":"",
+            "FR":""
+        }
     }
 }

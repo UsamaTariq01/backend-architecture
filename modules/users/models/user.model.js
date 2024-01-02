@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
         // },
         gender: {
             type: DataTypes.ENUM,
-            values: [ 'male', 'female', 'other' ]
+            values: ['male', 'female', 'other']
         },
         profileImage: {
             type: DataTypes.STRING,
@@ -99,6 +99,24 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             defaultValue: null,
             allowNull: true
+        },
+        loginOtp: {
+            type: DataTypes.STRING,
+            defaultValue: null,
+            allowNull: true
+        },
+        loginOtpDateTime: {
+            type: DataTypes.DATE(6),
+            allowNull: true
+        },
+        transactionOtp: {
+            type: DataTypes.STRING,
+            defaultValue: null,
+            allowNull: true
+        },
+        transactionOtpDateTime: {
+            type: DataTypes.DATE(6),
+            allowNull: true
         }
 
 
@@ -122,7 +140,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         indexes: [
             {
-                fields: [ 'email', 'phone' ]
+                fields: ['email', 'phone']
             }
         ],
         sequelize,

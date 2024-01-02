@@ -166,5 +166,12 @@
             "AR": "",
             "FR":""
         }
+    },
+    "125": {
+        "msg": {
+            "EN": "please verify your phone number first",
+            "AR": "",
+            "FR":""
+        }
     }
 }

@@ -6,6 +6,7 @@ const authController = require('../controllers/auth.controllers'),
 module.exports = (app, version) => {
 
     const moduleName = '/user/auth';
+    //* ************************* sign up ***************************************** */
     app.post(
         `${version + moduleName}/signup`,
         userValidator.validateUserSignUp,
@@ -15,6 +16,7 @@ module.exports = (app, version) => {
         authController.userSignUp
 
     );
+    //* **************** sign up resend verification code ********************* */
     app.post(
         `${version + moduleName}/resend/code`,
         userValidator.validatePhoneNumber,
@@ -22,6 +24,7 @@ module.exports = (app, version) => {
         authController.resendUserPhoneNumberVerificationCode
 
     );
+    //* ****************  sign up phone number  verification  **************************** */
     app.post(
         `${version + moduleName}/verify/code`,
         userValidator.validatePhoneNumber,
@@ -30,6 +33,7 @@ module.exports = (app, version) => {
         authController.phoneNumberVerification
 
     );
+    //* **************** sign up password setup ****************************** */
     app.post(
         `${version + moduleName}/password/setup`,
         userValidator.validatePhoneNumber,
@@ -38,6 +42,8 @@ module.exports = (app, version) => {
         authController.passwordSetup
 
     );
+    //* **************** logins ********************************************************* */
+    //* **************** login: send email OTP ************************************************ */
     app.post(
         `${version + moduleName}/email/login`,
         userValidator.validateEmail,
@@ -46,11 +52,22 @@ module.exports = (app, version) => {
         authController.loginSuccessResponseUser
 
     );
+    //* **************** login: send phone number OTP **************************************** */
     app.post(
         `${version + moduleName}/phone/login`,
         userValidator.validatePhoneNumber,
         userHelper.isPhoneNumberDoseNotExists,
-        authController.userSignIn,
+        userHelper.isPhoneVerified,
+        authController.userSignInPhoneNumber,
+        authController.sendLogInPhoneNumberOtp
+
+    );
+    //* **************** login: phone number + otp login **************************************** */
+    app.post(
+        `${version + moduleName}/phone/login/otp`,
+        userValidator.validatePhoneNumber,
+        userHelper.isPhoneNumberDoseNotExists,
+        authController.userSignInOtpPhoneNumber,
         authController.loginSuccessResponseUser
 
     );

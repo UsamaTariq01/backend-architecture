@@ -8,17 +8,21 @@ const jwtOptions = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
     secretOrKey: global.config.jwtSetting.secret
 };
-passport.use('user', new LocalStrategy({
-    usernameField: 'email',
-    passwordField: 'password'
-}, async (username, password, done) => {
+const userAuth = async (method, isOtp, username, password, done) => {
 
     try {
 
-        const user = await models.users.findOne({
-            where: {
+        const logInMethod = {
+            phoneNumber: {
+                phone: username
+            },
+            email: {
                 email: username
             }
+        };
+
+        const user = await models.users.findOne({
+            where: logInMethod[method]
         });
 
         if (!user || !user.password) {
@@ -33,7 +37,19 @@ passport.use('user', new LocalStrategy({
 
         }
 
+        if (isOtp) {
 
+            const isOtpMatch = user.loginOtp === password;
+
+            if (!isOtpMatch) {
+
+                return done(null, false, { msg: 112 });
+
+            }
+
+            return done(null, user);
+
+        }
         const isMatch = await user.comparePassword(password);
 
         if (!isMatch) {
@@ -50,6 +66,41 @@ passport.use('user', new LocalStrategy({
         return done(error);
 
     }
+
+};
+passport.use('user-email-login', new LocalStrategy({
+    usernameField: 'email',
+    passwordField: 'password'
+}, async (username, password, done) => {
+
+    return await userAuth('email', false, username, password, done);
+
+}));
+passport.use('user-phone-login', new LocalStrategy({
+    usernameField: 'phoneNumber',
+    passwordField: 'password'
+}, async (username, password, done) => {
+
+    return await userAuth('phoneNumber', false, username, password, done);
+
+
+}));
+passport.use('user-otp-login-email', new LocalStrategy({
+    usernameField: 'email',
+    passwordField: 'otp'
+}, async (username, password, done) => {
+
+    return await userAuth('email', true, username, password, done);
+
+
+}));
+passport.use('user-otp-login-phoneNumber', new LocalStrategy({
+    usernameField: 'phoneNumber',
+    passwordField: 'otp'
+}, async (username, password, done) => {
+
+    return await userAuth('phoneNumber', true, username, password, done);
+
 
 }));
 

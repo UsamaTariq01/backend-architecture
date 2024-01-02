@@ -53,6 +53,32 @@ const isPhoneNumberDoseNotExists = async (req, res, next) => {
     }
 
 };
+const isPhoneVerified = async (req, res, next) => {
+
+    try {
+
+        const isPhoneNumberExistsAndVerified = await models.users.findOne({
+            where: {
+                phone: req.body.phoneNumber,
+                isPhoneVerified: true
+            },
+            raw: true
+        });
+        if (!isPhoneNumberExistsAndVerified) {
+
+            return next({ msg: 125 });
+
+        }
+        return next();
+
+    } catch (error) {
+
+        logger.error(error);
+        return next({ msg: 3067 });
+
+    }
+
+};
 const isEmailExists = async (req, res, next) => {
 
     try {
@@ -154,5 +180,6 @@ module.exports = {
     isPhoneNumberDoseNotExists,
     isEmailExistsDoseNotExists,
     setupUserEmail,
-    isCountryIdExists
+    isCountryIdExists,
+    isPhoneVerified
 };
