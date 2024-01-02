@@ -1,8 +1,7 @@
 
 const Response = require('../../../configurations/config.response'),
     models = require('../../../configurations/config.sequelize').models,
-    { Op } = require('sequelize'),
-    globalUtils = require('../../utils');
+    { Op } = require('sequelize');
 
 
 const fetchCountries = async (req, res, next) => {
