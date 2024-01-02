@@ -1,5 +1,4 @@
 const userController = require('../controllers/user.controllers'),
-    authController = require('../controllers/auth.controllers'),
     userValidator = require('../validators/users.validators'),
     userHelper = require('../controllers/helpers/users.helper'),
     fileUpload = require('../../../configurations/config.multer'),

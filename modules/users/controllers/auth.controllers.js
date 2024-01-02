@@ -190,13 +190,14 @@ const passwordSetup = async (req, res, next) => {
             },
             raw: true
         });
+
         if (!user) {
 
             return next({ msg: 109 });
 
         }
 
-        req.token = globalUtils.signJwt({
+        const token = globalUtils.signJwt({
             id: user.id,
             name: user.name,
             email: user.email
@@ -206,7 +207,7 @@ const passwordSetup = async (req, res, next) => {
 
             isPhoneVerified: true,
             password,
-            userSessionToken: req.token
+            userSessionToken: token
         },
         {
             where: {
@@ -214,7 +215,7 @@ const passwordSetup = async (req, res, next) => {
             }
         });
         res.setHeader('Access-Control-Expose-Headers', 'Authorization');
-        res.setHeader('Authorization', req.token);
+        res.setHeader('Authorization', token);
 
         return Response.sendResponse(
             res,
@@ -224,7 +225,7 @@ const passwordSetup = async (req, res, next) => {
                     id: user.id,
                     name: user.name,
                     email: user.email,
-                    token: req.token
+                    token: token
 
                 },
                 lang: req.params.lang
@@ -239,6 +240,7 @@ const passwordSetup = async (req, res, next) => {
     }
 
 };
+
 
 //* ************************send login success response ************************/
 const loginSuccessResponseUser = (req, res, next) => {
@@ -348,25 +350,25 @@ const sendLogInPhoneNumberOtp = async (req, res, next) => {
 //* ******************** ***** user sign in by phone number ************************/
 const userSignInPhoneNumber = (req, res, next) => {
 
-    userSignIn('user-phone-login', req, res, next);
+    return userSignIn('user-phone-login', req, res, next);
 
 };
 //* ******************** ***** user sign in by otp number ************************/
 const userSignInOtpPhoneNumber = (req, res, next) => {
 
-    userSignIn('user-otp-login-phoneNumber', req, res, next);
+    return userSignIn('user-otp-login-phoneNumber', req, res, next);
 
 };
 //* **************************user email sign-In *********************************/
 const userEmailSignIn = (req, res, next) => {
 
-    userSignIn('user-email-login', req, res, next);
+    return userSignIn('user-email-login', req, res, next);
 
 };
 // * ********************Sign-In methods processing **************************/
 function userSignIn (method, req, res, next) {
 
-    passport.authenticate(method, (err, user, info) => {
+    return passport.authenticate(method, (err, user, info) => {
 
         if (err) {
 

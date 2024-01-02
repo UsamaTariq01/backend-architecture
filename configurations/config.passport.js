@@ -133,7 +133,7 @@ passport.use(new JwtStrategy(jwtOptions, async (jwtPayload, done) => {
 
 }));
 
-passport.isAuthenticated = async (req, res, next) => {
+passport.isAuthenticated = (req, res, next) => {
 
     passport.authenticate(
         'jwt',

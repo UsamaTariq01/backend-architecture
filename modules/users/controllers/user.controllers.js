@@ -1,10 +1,5 @@
 const Response = require('../../../configurations/config.response'),
-    models = require('../../../configurations/config.sequelize').models,
-    moment = require('moment'),
-    bcrypt = require('bcrypt'),
-    jwt = require('jsonwebtoken'),
-    passport = require('../../../configurations/config.passport'),
-    globalUtils = require('../../utils');
+    models = require('../../../configurations/config.sequelize').models;
 
 //* *********************** user profile response *************************/
 const userProfileResponse = (req, res, next) => {
