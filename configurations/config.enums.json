@@ -1,13 +1,13 @@
 {
     "languagesAllowed": {
-        "en": "EN",
-        "ar": "AR",
-        "fr": "FR"
+        "en": "en",
+        "ar": "ar",
+        "fr": "fr"
     },
     "allowedLanguagesArray": [
-        "EN",
-        "AR",
-        "FR"
+        "en",
+        "ar",
+        "fr"
     ],
     "genders": [
         "male",

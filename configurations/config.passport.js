@@ -127,21 +127,21 @@ passport.use('admin', new JwtStrategy(jwtAdminOptions, async (jwtPayload, done) 
 
     try {
 
-        const user = await models.admins.findOne({
+        const admin = await models.admins.findOne({
             where: {
                 id: jwtPayload.id
             },
             raw: true
         });
+        console.log('admin ', admin);
+        if (!admin || admin.status !== 1) {
 
-        if (!user || user.status !== 1) {
-
-            // Handle invalid user or user status
+            // Handle invalid admin or admin status
             return done({ msg: 117 });
 
         }
 
-        return done(null, user);
+        return done(null, admin);
 
     } catch (error) {
 

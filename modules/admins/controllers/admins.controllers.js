@@ -25,7 +25,7 @@ function adminLogIn (req, res, next) {
 
         req.user = user;
 
-        req.token = globalUtils.signJwt({
+        req.token = globalUtils.signJwtAdmin({
             id: user.id,
             name: user.name,
             email: user.email
@@ -184,5 +184,6 @@ const fetchUsers = async (req, res, next) => {
 };
 module.exports = {
     adminLogIn,
-    adminLoginSuccessResponse
+    adminLoginSuccessResponse,
+    fetchUsers
 };

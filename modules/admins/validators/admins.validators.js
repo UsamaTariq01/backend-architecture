@@ -65,8 +65,27 @@ const validateListing = async (req, res, next) => {
 
 };
 
+const validateUserListingFilters = async (req, res, next) => {
+
+    try {
+
+        await query('countryId').optional().trim().escape().isInt({ min: 1 }).withMessage(2000).run(req);
+        // await query('region').optional().trim().escape().isString().isIn(global.config.countryRegions).withMessage(2001).run(req);
+
+
+        return GlobalLib.ValidateResponse('validate filters listings', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ code: 2 });
+
+    }
+
+};
 module.exports = {
     validateEmail,
     validatePassword,
-    validateListing
+    validateListing,
+    validateUserListingFilters
 };

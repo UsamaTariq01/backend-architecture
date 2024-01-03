@@ -1,7 +1,14 @@
 {
     "2000": {
         "msg": {
-            "EN": "no errorrs yet",
+            "EN": "please provide correct country",
+            "AR": "",
+            "FR":""
+        }
+    },
+    "2001": {
+        "msg": {
+            "EN":" please provide correct region",
             "AR": "",
             "FR":""
         }

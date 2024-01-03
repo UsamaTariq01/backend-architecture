@@ -92,8 +92,8 @@ module.exports = (sequelize, DataTypes) => {
             defaultValue: false
         },
         language: {
-            type: DataTypes.ENUM('EN', 'FR', 'AR'),
-            defaultValue: 'EN'
+            type: DataTypes.ENUM('en', 'fr', 'ar'),
+            defaultValue: 'en'
         },
         userSessionToken: {
             type: DataTypes.STRING,

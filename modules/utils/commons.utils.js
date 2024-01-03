@@ -41,8 +41,21 @@ const signJwt = (user) => {
     );
 
 };
+const signJwtAdmin = (user) => {
+
+    return jwt.sign(
+        user,
+        global.config.jwtSetting.adminSecret,
+        {
+            algorithm: global.config.jwtSetting.algorithm,
+            expiresIn: global.config.jwtSetting.expiration
+        }
+    );
+
+};
 module.exports = {
     generateRandomNumber,
     sendSMS,
-    signJwt
+    signJwt,
+    signJwtAdmin
 };

@@ -7,11 +7,12 @@ module.exports = (app, version) => {
 
     const moduleName = '/admin/user';
 
-    app.post(
+    app.get(
         `${version + moduleName}/listing`,
         passport.authenticate('admin', { session: false }),
         adminValidator.validateListing,
-        adminController.adminLoginSuccessResponse
+        adminValidator.validateUserListingFilters,
+        adminController.fetchUsers
 
     );
 
