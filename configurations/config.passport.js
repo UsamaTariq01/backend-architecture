@@ -64,13 +64,13 @@ passport.use('admin-email-login', new LocalStrategy({
 
         if (!admin?.password) {
 
-            return done(null, false, { msg: 110 });
+            return done(null, false, { msg: 110, code: 401 });
 
         }
 
         if (!admin.status || admin.status !== 1) {
 
-            return done(null, false, { msg: 111 });
+            return done(null, false, { msg: 111, code: 401 });
 
         }
 
@@ -78,7 +78,7 @@ passport.use('admin-email-login', new LocalStrategy({
 
         if (!isMatch) {
 
-            return done(null, false, { msg: 112 });
+            return done(null, false, { msg: 112, code: 401 });
 
         }
 
@@ -109,7 +109,7 @@ passport.use('user', new JwtStrategy(jwtUserOptions, async (jwtPayload, done) =>
         if (!user || user.status !== 1) {
 
             // Handle invalid user or user status
-            return done({ msg: 117 });
+            return done({ msg: 117, code: 401 });
 
         }
 
@@ -137,7 +137,7 @@ passport.use('admin', new JwtStrategy(jwtAdminOptions, async (jwtPayload, done) 
         if (!admin || admin.status !== 1) {
 
             // Handle invalid admin or admin status
-            return done({ msg: 117 });
+            return done({ msg: 117, code: 401 });
 
         }
 
@@ -184,13 +184,13 @@ async function userAuth (method, isOtp, username, password, done) {
 
         if (!user?.password) {
 
-            return done(null, false, { msg: 110 });
+            return done(null, false, { msg: 110, code: 401 });
 
         }
 
         if (!user.status || user.status !== 1) {
 
-            return done(null, false, { msg: 111 });
+            return done(null, false, { msg: 111, code: 401 });
 
         }
 
@@ -200,7 +200,7 @@ async function userAuth (method, isOtp, username, password, done) {
 
             if (!isOtpMatch) {
 
-                return done(null, false, { msg: 112 });
+                return done(null, false, { msg: 112, code: 401 });
 
             }
 
@@ -211,7 +211,7 @@ async function userAuth (method, isOtp, username, password, done) {
 
         if (!isMatch) {
 
-            return done(null, false, { msg: 112 });
+            return done(null, false, { msg: 112, code: 401 });
 
         }
 

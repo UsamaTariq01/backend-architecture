@@ -14,7 +14,7 @@ const isPhoneNumberExists = async (req, res, next) => {
         });
         if (isPhoneNumberExists) {
 
-            return next({ msg: 103 });
+            return next({ msg: 103, code: 400 });
 
         }
 
@@ -23,7 +23,7 @@ const isPhoneNumberExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 107 });
+        return next({ msg: 107, code: 500 });
 
     }
 
@@ -40,7 +40,7 @@ const isPhoneNumberDoseNotExists = async (req, res, next) => {
         });
         if (!isPhoneNumberExists) {
 
-            return next({ msg: 113 });
+            return next({ msg: 113, code: 400 });
 
         }
 
@@ -49,7 +49,7 @@ const isPhoneNumberDoseNotExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 107 });
+        return next({ msg: 107, code: 500 });
 
     }
 
@@ -67,7 +67,7 @@ const isPhoneVerified = async (req, res, next) => {
         });
         if (!isPhoneNumberExistsAndVerified) {
 
-            return next({ msg: 125 });
+            return next({ msg: 125, code: 400 });
 
         }
         return next();
@@ -75,7 +75,7 @@ const isPhoneVerified = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -93,7 +93,7 @@ const isEmailVerified = async (req, res, next) => {
         });
         if (!isEmailExistsAndVerified) {
 
-            return next({ msg: 126 });
+            return next({ msg: 126, code: 400 });
 
         }
         return next();
@@ -101,7 +101,7 @@ const isEmailVerified = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -118,7 +118,7 @@ const isEmailExists = async (req, res, next) => {
         });
         if (isEmail) {
 
-            return next({ msg: 106 });
+            return next({ msg: 106, code: 400 });
 
         }
 
@@ -127,7 +127,7 @@ const isEmailExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 107 });
+        return next({ msg: 107, code: 500 });
 
     }
 
@@ -144,7 +144,7 @@ const isCountryIdExists = async (req, res, next) => {
         });
         if (!isCountry) {
 
-            return next({ msg: 1000 });
+            return next({ msg: 1000, code: 400 });
 
         }
 
@@ -153,7 +153,7 @@ const isCountryIdExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -170,7 +170,7 @@ const isEmailExistsDoseNotExists = async (req, res, next) => {
         });
         if (!isEmail) {
 
-            return next({ msg: 116 });
+            return next({ msg: 116, code: 400 });
 
         }
         return next();
@@ -178,7 +178,7 @@ const isEmailExistsDoseNotExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 107 });
+        return next({ msg: 107, code: 500 });
 
     }
 
@@ -200,12 +200,12 @@ const verifyEmailOrPhoneAndPassword = (req, res, next) => {
             return authController.userSignIn('user-phone-login', req, res, next);
 
         }
-        return next({ msg: 127 });
+        return next({ msg: 127, code: 400 });
 
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 

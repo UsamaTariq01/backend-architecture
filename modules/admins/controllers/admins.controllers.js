@@ -66,7 +66,7 @@ const adminLoginSuccessResponse = (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msgCode: 4081 });
+        return next({ msgCode: 4081, code: 500 });
 
     }
 
@@ -177,7 +177,7 @@ const fetchUsers = async (req, res, next) => {
 
     } catch (error) {
 
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 

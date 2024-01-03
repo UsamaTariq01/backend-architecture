@@ -62,7 +62,7 @@ const fetchCountries = async (req, res, next) => {
 
     } catch (error) {
 
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 

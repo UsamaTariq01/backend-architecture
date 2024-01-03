@@ -55,7 +55,7 @@ const userSignUp = async (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -80,7 +80,7 @@ const resendUserPhoneNumberVerificationCode = async (req, res, next) => {
 
         if ( minutesPassed < 1) {
 
-            return next({ msg: 108 });
+            return next({ msg: 108, code: 400 });
 
         }
         await models.users.update({
@@ -125,7 +125,7 @@ const resendUserPhoneNumberVerificationCode = async (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -146,7 +146,7 @@ const phoneNumberVerification = async (req, res, next) => {
         });
         if (!user) {
 
-            return next({ msg: 109 });
+            return next({ msg: 109, code: 400 });
 
         }
 
@@ -172,7 +172,7 @@ const phoneNumberVerification = async (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -193,7 +193,7 @@ const passwordSetup = async (req, res, next) => {
 
         if (!user) {
 
-            return next({ msg: 109 });
+            return next({ msg: 109, code: 400 });
 
         }
 
@@ -235,7 +235,7 @@ const passwordSetup = async (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 500 });
 
     }
 
@@ -266,7 +266,7 @@ const loginSuccessResponseUser = (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msgCode: 4081 });
+        return next({ msgCode: 4081, code: 500 });
 
     }
 
@@ -292,7 +292,7 @@ const sendLogInPhoneNumberOtp = async (req, res, next) => {
             const minutesPassed = currentTime.diff(user.loginOtpDateTime, 'minutes');
             if ( minutesPassed < 1) {
 
-                return next({ msg: 108 });
+                return next({ msg: 108, code: 400 });
 
             }
 
@@ -340,7 +340,7 @@ const sendLogInPhoneNumberOtp = async (req, res, next) => {
     } catch (err) {
 
         console.log(err);
-        return next({ msg: 3067 });
+        return next({ msg: 3067, code: 400 });
 
     }
 

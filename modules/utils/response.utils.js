@@ -13,7 +13,7 @@ const ValidateResponse = (msg, req, res, next) => {
         console.log(response.errors);
         const errorsArray = response.errors;
         Logger.error(`message: ${msg}, error: ${errorsArray[0]}`);
-        return next({ msg: errorsArray[0].msg });
+        return next({ msg: errorsArray[0].msg, code: 400 });
 
     }
     return next();

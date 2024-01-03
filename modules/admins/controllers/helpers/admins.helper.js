@@ -13,7 +13,7 @@ const isAdminEmailExists = async (req, res, next) => {
         });
         if (!isEmail) {
 
-            return next({ msg: 116 });
+            return next({ msg: 116, code: 400 });
 
         }
         return next();
@@ -21,7 +21,7 @@ const isAdminEmailExists = async (req, res, next) => {
     } catch (error) {
 
         logger.error(error);
-        return next({ msg: 107 });
+        return next({ msg: 107, code: 500 });
 
     }
 

@@ -31,14 +31,6 @@ module.exports = (app) => {
 
             errorMessage = `${global.errors[error.msg].msg[langCode]}`;
 
-        } else if (error.message && typeof error.message === 'number') {
-
-            errorMessage = `${global.errors[error.message].msg[[ langCode ]]}`;
-
-        } else if (error.code && typeof error.code === 'number') {
-
-            errorMessage = `${global.errors[error.message].msg[[ langCode ]]}`;
-
         } else {
 
             errorMessage = error;
@@ -47,9 +39,14 @@ module.exports = (app) => {
 
 
         Logger.error(` inside error handler: ${errorMessage}`);
-
+        console.log(error);
         const response = error.status;
+        res.status(400);
+        if (error.code) {
 
+            res.status(error.code);
+
+        }
         return res.json(
             {
                 success: false,
