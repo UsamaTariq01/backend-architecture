@@ -13,5 +13,23 @@
         "male",
         "female",
         "other"
+    ],
+    "countryRegions": [
+        "Asia & Pacific",
+        "Europe",
+        "Arab States",
+        "Africa",
+        "South/Latin America",
+        "North America",
+        "Unknown",
+        "Indian Ocean",
+        "Caribbean Sea",
+        "Australia",
+        "Caribbean",
+        "Pacific Ocean",
+        "South Pacific Ocean",
+        "South Atlantic Ocean",
+        "Asia",
+        "Atlantic Ocean"
     ]
 }

@@ -5,5 +5,12 @@
             "AR":"",
             "FR":""
         }
+    },
+    "2001": {
+        "msg": {
+            "EN":"users fetched successfully",
+            "AR":"",
+            "FR":""
+        }
     }
 }

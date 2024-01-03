@@ -1,7 +1,7 @@
 const Response = require('../../../configurations/config.response'),
     models = require('../../../configurations/config.sequelize').models;
 
-//* *********************** user profile response *************************/
+//* ********************************* user profile response ************************************/
 const userProfileResponse = (req, res, next) => {
 
     try {
@@ -14,7 +14,7 @@ const userProfileResponse = (req, res, next) => {
                     user: req.user
 
                 },
-                lang: req.params.lang
+                lang: req.user.language || req.params.lang
             }
         );
 
@@ -26,7 +26,7 @@ const userProfileResponse = (req, res, next) => {
     }
 
 };
-//* ******************************* update user profile *********************************** */
+//* ********************************** update user profile *************************************** */
 const updateUserProfile = async (req, res, next) => {
 
     try {
@@ -59,7 +59,7 @@ const updateUserProfile = async (req, res, next) => {
                     user: req.user
 
                 },
-                lang: req.params.lang
+                lang: req.user.language || req.params.lang
             }
         );
 
@@ -71,7 +71,7 @@ const updateUserProfile = async (req, res, next) => {
     }
 
 };
-//* ************************** change user own password *************************** */
+//* ********************************* change user own password ********************************** */
 const changePassword = async (req, res, next) => {
 
     try {
@@ -92,7 +92,7 @@ const changePassword = async (req, res, next) => {
             {
                 msg: 106,
                 data: {},
-                lang: req.params.lang
+                lang: req.user.language || req.params.lang
             }
         );
 
@@ -104,7 +104,7 @@ const changePassword = async (req, res, next) => {
     }
 
 };
-//* ***************************** change user email *****************************/
+//* ******************************* change user email ******************************************/
 const changeEmail = async (req, res, next) => {
 
     try {
@@ -125,7 +125,7 @@ const changeEmail = async (req, res, next) => {
             {
                 msg: 107,
                 data: {},
-                lang: req.params.lang
+                lang: req.user.language || req.params.lang
             }
         );
 

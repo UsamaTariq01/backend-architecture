@@ -21,6 +21,11 @@ module.exports = (app) => {
             langCode = (req.url).split('/')[3];
 
         langCode = global.config.languagesAllowed[langCode] || 'EN';
+        if (req?.user?.language) {
+
+            langCode = req.user.language;
+
+        }
 
         if (error.msg && typeof error.msg === 'number') {
 

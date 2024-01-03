@@ -1,6 +1,6 @@
 const GlobalLib = require('../../utils'),
     Logger = require('../../../configurations/logger.winston'),
-    { check, param, body } = require('express-validator');
+    { check, param, body, query } = require('express-validator');
 
 const validateEmail = async (req, res, next) => {
 
@@ -44,7 +44,29 @@ const validatePassword = async (req, res, next) => {
 
 };
 
+const validateListing = async (req, res, next) => {
+
+    try {
+
+        await query('limit').optional().trim().escape().isInt({ min: 1 }).withMessage(1004).run(req);
+        await query('offset').optional().trim().escape().isInt({ min: 0 }).withMessage(1005).run(req);
+        await query('searchText').optional().trim().escape().isString().withMessage(1006).run(req);
+        await query('sort').optional().trim().escape().isString().isIn(['DESC', 'ASC']).withMessage(1007).run(req);
+
+
+        return GlobalLib.ValidateResponse('validate user listings', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ code: 2 });
+
+    }
+
+};
+
 module.exports = {
     validateEmail,
-    validatePassword
+    validatePassword,
+    validateListing
 };
