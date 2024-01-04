@@ -1,65 +1,65 @@
 {
     "100": {
         "msg": {
-            "EN":"phone verification code send",
-            "AR":"",
-            "FR":""
+            "en":"phone verification code send",
+            "ar":"",
+            "fr":""
         }
     },
     "102": {
         "msg": {
-            "EN":"phoneNumber verified",
-            "AR":"",
-            "FR":""
+            "en":"phonenumber verified",
+            "ar":"",
+            "fr":""
         }
     },
     "103": {
         "msg": {
-            "EN":"signup successfull",
-            "AR":"",
-            "FR":""
+            "en":"signup successfull",
+            "ar":"",
+            "fr":""
         }
     },
     "104": {
         "msg": {
-            "EN":"profile updated",
-            "AR":"",
-            "FR":""
+            "en":"profile updated",
+            "ar":"",
+            "fr":""
         }
     },
     "105": {
         "msg": {
-            "EN":"profile fetched successfully",
-            "AR":"",
-            "FR":""
+            "en":"profile fetched successfully",
+            "ar":"",
+            "fr":""
         }
     },
     "106": {
         "msg": {
-            "EN":"your password has been resetted",
-            "AR":"",
-            "FR":""
+            "en":"your password has been resetted",
+            "ar":"",
+            "fr":""
         }
     },
     "107": {
         "msg": {
-            "EN":"your email has been resetted",
-            "AR":"",
-            "FR":""
+            "en":"your email has been resetted",
+            "ar":"",
+            "fr":""
         }
     },
     "108": {
         "msg": {
-            "EN":"successfully logged-In",
-            "AR":"",
-            "FR":""
+            "en":"successfully logged-In",
+            "ar":"",
+            "fr":""
         }
     },
     "109": {
         "msg": {
-            "EN":"otp sent, if OTP is not received within a minute you can request a new one.",
-            "AR":"",
-            "FR":""
+            "en":"otp sent, if OTP is not received within a minute you can request a new one.",
+            "ar":"",
+            "fr":""
         }
     }
 }

@@ -1,16 +1,37 @@
 {
     "2000": {
         "msg": {
-            "EN": "please provide correct country",
-            "AR": "",
-            "FR":""
+            "en": "please provide correct country",
+            "ar": "",
+            "fr":""
         }
     },
     "2001": {
         "msg": {
-            "EN":" please provide correct region",
-            "AR": "",
-            "FR":""
+            "en":" please provide correct region",
+            "ar": "",
+            "fr":""
+        }
+    },
+    "2002": {
+        "msg": {
+            "en":" please provide correct User",
+            "ar": "",
+            "fr":""
+        }
+    },
+    "2003": {
+        "msg": {
+            "en":" please provide correct status [enable, disable]",
+            "ar": "",
+            "fr":""
+        }
+    },
+    "2004": {
+        "msg": {
+            "en":" please provide correct userId",
+            "ar": "",
+            "fr":""
         }
     }
 }

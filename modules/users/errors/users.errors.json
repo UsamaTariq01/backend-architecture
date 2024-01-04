@@ -1,191 +1,191 @@
 {
     "100": {
         "msg": {
-            "EN": "Please provide valid phoneNumber",
-            "AR": "",
-            "FR":""
+            "en": "Please provide valid phonenumber",
+            "ar": "",
+            "fr":""
         }
     },
     "102": {
         "msg": {
-            "EN": "error occured while validating phoneNumber ",
-            "AR": "",
-            "FR":""
+            "en": "error occured while validating phonenumber ",
+            "ar": "",
+            "fr":""
         }
     },
     "103": {
         "msg": {
-            "EN": "phoneNumber already exists, please try signing in with phoneNumber",
-            "AR": "",
-            "FR":""
+            "en": "phonenumber already exists, please try signing in with phonenumber",
+            "ar": "",
+            "fr":""
         }
     },
     "104": {
         "msg": {
-            "EN": "please provide valid email",
-            "AR": "",
-            "FR":""
+            "en": "please provide valid email",
+            "ar": "",
+            "fr":""
         }
     },
     "105": {
         "msg": {
-            "EN": "please provide name",
-            "AR": "",
-            "FR":""
+            "en": "please provide name",
+            "ar": "",
+            "fr":""
         }
     },
     "106": {
         "msg": {
-            "EN": "email already exists in the system",
-            "AR": "",
-            "FR":""
+            "en": "email already exists in the system",
+            "ar": "",
+            "fr":""
         }
     },
     "107": {
         "msg": {
-            "EN": "error occured while validating",
-            "AR": "",
-            "FR":""
+            "en": "error occured while validating",
+            "ar": "",
+            "fr":""
         }
     },
     "108": {
         "msg": {
-            "EN": "cannot send otp before 1 minute",
-            "AR": "",
-            "FR":""
+            "en": "cannot send otp before 1 minute",
+            "ar": "",
+            "fr":""
         }
     },
     "109": {
         "msg": {
-            "EN": "otp not found",
-            "AR": "",
-            "FR":""
+            "en": "otp not found",
+            "ar": "",
+            "fr":""
         }
     },
     "110": {
         "msg": {
-            "EN": "password not setup",
-            "AR": "",
-            "FR":""
+            "en": "password not setup",
+            "ar": "",
+            "fr":""
         }
     },
     "111": {
         "msg": {
-            "EN": "user not found",
-            "AR": "",
-            "FR":""
+            "en": "user not found",
+            "ar": "",
+            "fr":""
         }
     },
     "112": {
         "msg": {
-            "EN": "credentials mis-match",
-            "AR": "",
-            "FR":""
+            "en": "credentials mis-match",
+            "ar": "",
+            "fr":""
         }
     },
     "113": {
         "msg": {
-            "EN": "phone number does not exists",
-            "AR": "",
-            "FR":""
+            "en": "phone number does not exists",
+            "ar": "",
+            "fr":""
         }
     },
     "114": {
         "msg": {
-            "EN": "please send code in string",
-            "AR": "",
-            "FR":""
+            "en": "please send code in string",
+            "ar": "",
+            "fr":""
         }
     },
     "115": {
         "msg": {
-            "EN": "Password must be at least 8 characters long, contain at least one number, one alphabet and one special character",
-            "AR": "",
-            "FR":""
+            "en": "Password must be at least 8 characters long, contain at least one number, one alphabet and one special character",
+            "ar": "",
+            "fr":""
         }
     },
     "116": {
         "msg": {
-            "EN": "credentials not found",
-            "AR": "",
-            "FR":""
+            "en": "credentials not found",
+            "ar": "",
+            "fr":""
         }
     },
     "117": {
         "msg": {
-            "EN": "Unauthorized",
-            "AR": "",
-            "FR":""
+            "en": "Unauthorized",
+            "ar": "",
+            "fr":""
         }
     },
     "118": {
         "msg": {
-            "EN": "possible gender values are [ male, female, other ]",
-            "AR": "",
-            "FR":""
+            "en": "possible gender values are [ male, female, other ]",
+            "ar": "",
+            "fr":""
         }
     },
     "119": {
         "msg": {
-            "EN": "face Id could be true or false",
-            "AR": "",
-            "FR":""
+            "en": "face Id could be true or false",
+            "ar": "",
+            "fr":""
         }
     },
     "120": {
         "msg": {
-            "EN": "biometric could be true or false",
-            "AR": "",
-            "FR":""
+            "en": "biometric could be true or false",
+            "ar": "",
+            "fr":""
         }
     },
     "121": {
         "msg": {
-            "EN": "please select from allowed languages",
-            "AR": "",
-            "FR":""
+            "en": "please select from allowed languages",
+            "ar": "",
+            "fr":""
         }
     },
     "122": {
         "msg": {
-            "EN": "please provide correct path for profile image",
-            "AR": "",
-            "FR":""
+            "en": "please provide correct path for profile image",
+            "ar": "",
+            "fr":""
         }
     },
     "123": {
         "msg": {
-            "EN": "please provide old passowrd",
-            "AR": "",
-            "FR":""
+            "en": "please provide old passowrd",
+            "ar": "",
+            "fr":""
         }
     },
     "124": {
         "msg": {
-            "EN": "please provide country",
-            "AR": "",
-            "FR":""
+            "en": "please provide country",
+            "ar": "",
+            "fr":""
         }
     },
     "125": {
         "msg": {
-            "EN": "please verify your phone number first",
-            "AR": "",
-            "FR":""
+            "en": "please verify your phone number first",
+            "ar": "",
+            "fr":""
         }
     },
     "126": {
         "msg": {
-            "EN": "please verify your email first",
-            "AR": "",
-            "FR":""
+            "en": "please verify your email first",
+            "ar": "",
+            "fr":""
         }
     },
     "127": {
         "msg": {
-            "EN": "please verify your phone or email first",
-            "AR": "",
-            "FR":""
+            "en": "please verify your phone or email first",
+            "ar": "",
+            "fr":""
         }
     }
 }

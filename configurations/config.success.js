@@ -13,14 +13,16 @@ newPath = `${newPath}/**/*.success.json`;
 const successMessages = {
     '0000': {
         msg: {
-            EN: '',
-            AR: ''
+            en: '',
+            ar: '',
+            fr: ''
         }
     },
     '0001': {
         msg: {
-            EN: 'Image uploaded successfully',
-            AR: 'تم تحميل الصورة بنجاح'
+            en: 'Image uploaded successfully',
+            ar: 'تم تحميل الصورة بنجاح',
+            fr: ''
         }
     }
 };

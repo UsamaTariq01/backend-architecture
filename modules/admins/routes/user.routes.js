@@ -15,5 +15,15 @@ module.exports = (app, version) => {
         adminController.fetchUsers
 
     );
+    app.patch(
+        `${version + moduleName}/status-update/:userId/:status`,
+        passport.authenticate('admin', { session: false }),
+        adminValidator.validateUserId,
+        adminValidator.validateStatus,
+        adminHelper.isUserExists,
+        adminController.updateUserStatus
+
+    );
+
 
 };

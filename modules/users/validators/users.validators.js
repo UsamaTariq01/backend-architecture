@@ -17,7 +17,7 @@ const validateUserSignUp = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -32,7 +32,7 @@ const validatePhoneNumber = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -49,7 +49,7 @@ const validateEmail = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -64,7 +64,7 @@ const validatephoneVerificationCode = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -88,7 +88,7 @@ const validatePassword = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -113,7 +113,7 @@ const validateNewOldPassword = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -135,7 +135,7 @@ const validateUpdateProfile = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 

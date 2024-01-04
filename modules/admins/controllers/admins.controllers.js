@@ -1,3 +1,4 @@
+const logger = require('../../../configurations/logger.winston');
 
 const Response = require('../../../configurations/config.response'),
     models = require('../../../configurations/config.sequelize').models,
@@ -148,7 +149,7 @@ const fetchUsers = async (req, res, next) => {
         const data = await models.users.findAndCountAll({
             where: whereCluase,
             attributes: ['id', 'name', 'email', 'phone',
-                'isEmailVerified', 'language', 'isPhoneVerified'],
+                'isEmailVerified', 'language', 'isPhoneVerified', 'status'],
             raw: true,
             limit: limit,
             offset: offset,
@@ -182,8 +183,62 @@ const fetchUsers = async (req, res, next) => {
     }
 
 };
+
+//* ****************************** enable disable user *****************************************************/
+const updateUserStatus = async (req, res, next) => {
+
+    try {
+
+        if (req.params.status === 'enable') {
+
+            req.userToUpdate.status = 2;
+
+        }
+
+        switch (req.params.status) {
+
+        case 'enable': {
+
+            req.userToUpdate.status = 1;
+            break;
+
+        }
+        case 'disable': {
+
+            req.userToUpdate.status = 0;
+            break;
+
+        }
+        default: {
+
+            logger.info('emoty statement called');
+
+        }
+
+        }
+        const data = await req.userToUpdate.save();
+
+        return Response.sendResponse(
+            res,
+            {
+                msg: 2002,
+                data: {
+                    data
+                },
+                lang: req.user.language
+            }
+        );
+
+    } catch (error) {
+
+        return next({ msg: 3067, code: 500 });
+
+    }
+
+};
 module.exports = {
     adminLogIn,
     adminLoginSuccessResponse,
-    fetchUsers
+    fetchUsers,
+    updateUserStatus
 };

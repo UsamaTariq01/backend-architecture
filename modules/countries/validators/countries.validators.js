@@ -18,7 +18,7 @@ const validateCountryListing = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 

@@ -14,7 +14,7 @@ const validateEmail = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500 });
 
     }
 
@@ -38,7 +38,7 @@ const validatePassword = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500 });
 
     }
 
@@ -59,7 +59,7 @@ const validateListing = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -78,7 +78,41 @@ const validateUserListingFilters = async (req, res, next) => {
     } catch (err) {
 
         Logger.error(err);
-        return next({ code: 2 });
+        return next({ msg: 2, code: 500 });
+
+    }
+
+};
+const validateUserId = async (req, res, next) => {
+
+    try {
+
+        await param('userId').optional().trim().escape().isInt({ min: 1 }).withMessage(2002).run(req);
+
+
+        return GlobalLib.ValidateResponse('validate filters listings', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ msg: 2, code: 500 });
+
+    }
+
+};
+const validateStatus = async (req, res, next) => {
+
+    try {
+
+        await param('status').optional().trim().escape().isString().isIn(['enable', 'disable']).withMessage(2003).run(req);
+
+
+        return GlobalLib.ValidateResponse('validate filters listings', req, res, next);
+
+    } catch (err) {
+
+        Logger.error(err);
+        return next({ msg: 2, code: 500  });
 
     }
 
@@ -87,5 +121,7 @@ module.exports = {
     validateEmail,
     validatePassword,
     validateListing,
-    validateUserListingFilters
+    validateUserListingFilters,
+    validateStatus,
+    validateUserId
 };

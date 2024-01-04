@@ -26,6 +26,35 @@ const isAdminEmailExists = async (req, res, next) => {
     }
 
 };
+const isUserExists = async (req, res, next) => {
+
+    try {
+
+        const isUser = await models.users.findOne({
+            where: {
+                id: req.params.userId
+            }
+        });
+
+        if (!isUser) {
+
+            return next({ msg: 2004, code: 400 });
+
+        }
+
+        req.userToUpdate = isUser;
+
+        return next();
+
+    } catch (error) {
+
+        logger.error(error);
+        return next({ msg: 107, code: 500 });
+
+    }
+
+};
 module.exports = {
-    isAdminEmailExists
+    isAdminEmailExists,
+    isUserExists
 };

@@ -1,16 +1,23 @@
 {
     "2000": {
         "msg": {
-            "EN":"admin successfully logged-in",
-            "AR":"",
-            "FR":""
+            "en":"admin successfully logged-in",
+            "ar":"",
+            "fr":""
         }
     },
     "2001": {
         "msg": {
-            "EN":"users fetched successfully",
-            "AR":"",
-            "FR":""
+            "en":"users fetched successfully",
+            "ar":"",
+            "fr":""
+        }
+    },
+    "2002": {
+        "msg": {
+            "en":"user updated successfully",
+            "ar":"",
+            "fr":""
         }
     }
 }

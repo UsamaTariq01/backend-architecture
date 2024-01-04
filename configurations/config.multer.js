@@ -77,7 +77,7 @@ const uploadImageResponse = (req, res, next) => {
 
         console.log(err);
 
-        return next({ msg: 2 });
+        return next({ msg: 2, code: 500 });
 
     }
 

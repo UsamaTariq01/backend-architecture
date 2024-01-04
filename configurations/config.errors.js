@@ -16,26 +16,30 @@ newPath = `${newPath}/**/*.errors.json`;
 const errorInitialized = {
     1: {
         'msg': {
-            'EN': '',
-            'AR': ''
+            'en': '',
+            'ar': '',
+            'fr': ''
         }
     },
     2: {
         'msg': {
-            'EN': 'error occured while request validation',
-            'AR': ''
+            'en': 'error occured while request validation',
+            'ar': '',
+            'fr': ''
         }
     },
     3: {
         'msg': {
-            'EN': 'error occured while uploading',
-            'AR': ''
+            'en': 'error occured while uploading',
+            'ar': '',
+            'fr': ''
         }
     },
     3067: {
         'msg': {
-            'EN': 'sometihing went wrong please try again.',
-            'AR': ''
+            'en': 'sometihing went wrong please try again.',
+            'ar': '',
+            'fr': ''
         }
     }
 };
